@@ -1,0 +1,1229 @@
+{
+    "search_metadata": {
+        "id": "655b8b07f05eb8b8ea931902",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/9c6fe0597dd990d7/655b8b07f05eb8b8ea931902.json",
+        "created_at": "2023-11-20 16:36:23 UTC",
+        "processed_at": "2023-11-20 16:36:23 UTC",
+        "google_jobs_url": "https://www.google.com/search?q=Software+Engineer&ibp=htl;jobs&uule=w+CAIQICIEU2FuIEZyYW5jaXNjby1PYWtsYW5kLVNhbiBKb3NlLENBLENhbGlmb3JuaWEsVW5pdGVkIFN0YXRlcw",
+        "raw_html_file": "https://serpapi.com/searches/9c6fe0597dd990d7/655b8b07f05eb8b8ea931902.html",
+        "total_time_taken": 3.29
+    },
+    "search_parameters": {
+        "q": "Software Engineer",
+        "engine": "google_jobs",
+        "location_requested": "San Francisco, CA",
+        "location_used": "San Francisco-Oakland-San Jose,CA,California,United States",
+        "google_domain": "google.com"
+    },
+    "jobs_results": [
+        {
+            "title": "Software Engineer -SE0282",
+            "company_name": "Urban Air Adventure Parks",
+            "location": "  St. Petersburg, FL   ",
+            "via": "via ZipRecruiter",
+            "description": "Urban Air Adventure Parks Agency is looking for a passionate, experienced Software Engineer who thrives in a highly collaborative, team environment.\n\nJoin our team of professionals with deep knowledge industry expertise, specialized technology knowledge, and a desire to do good for our clients, our communities, and our people...\n\nWhat is the role?\n\nYou would be a key member of our Information Technology Team, solving complex and unique business challenges with cloud native architectures in a collaborative agile environment. Join a new team at the ground level that is focused on supporting our state-of-the-art deposit sweep business. This is an opportunity to work with top IT talent in a fast-paced, entrepreneurial environment where automation and technical craftsmanship are a top priority.\n\nYour responsibilities will include:\n\u2022 Working with and across multiple Agile teams to oversee design, development, testing, deployment, and support of technology solutions.\n\u2022 Participate in code reviews and requirements analysis\n\u2022 Collaborate with internal teams to produce software design and architecture\n\u2022 Write clean, scalable code using programming languages\n\u2022 Test and deploy applications and systems\n\u2022 Build applications to leverage cloud platform services for maximum impact\n\u2022 Revise, update, refactor and debug code\n\u2022 Develop documentation throughout the software development life cycle (SDLC)\n\u2022 Serve as an expert on applications and provide technical support\n\u2022 Practice a \u201cyou build it, you own it\u201d discipline to application development\n\nYou should possess the following experience, skills, and qualifications:\n\u2022 Computer Science or related field.\n\u2022 Proven experience as a .NET Developer\n\u2022 Experience with ASP.NET Core, design/architectural patterns (e.g. Model-View-Controller (MVC))\n\u2022 Knowledge of at least one of the .NET languages (e.g. C#, Visual Basic .NET)\n\u2022 Experience with front end development using HTML5/CSS3, JavaScript Libraries - jQuery\n\u2022 Experience in database design and development (Microsoft SQL Server)Experience working with relational databases in cloud environments.\n\u2022 Experience with concurrent development source control (Git)\n\u2022 Understanding of containerized applications is a plus\n\u2022 Understanding of Agile methodologies\n\u2022 Excellent troubleshooting and communication skills\n\u2022 Attention to detail\n\u2022 Interest in delivering high impact business solutions enabling internal clients to improve performance\n\u2022 Must have excellent problem-solving skills and the ability to multi-task within tight deadlines; self-directed, and results/goal oriented.\n\u2022 Must have the drive to investigate new technologies and the ability to articulate concepts and designs.\n\nUrban Air Adventure Parks is an Equal Opportunity Employer and does not discriminate on the basis of race, color, national origin, sex, religion, age, veteran status, disability, or sexual orientation in employment of the provision of services.\n\nPay: $125,000.00 - $135,000.00 per year\n\nJob Type: Full-time\n\nBenefits:\n\u2022 401(k)\n\u2022 401(k) matching\n\u2022 Dental insurance\n\u2022 Flexible schedule\n\u2022 Flexible spending account\n\u2022 Health insurance\n\u2022 Health savings account\n\u2022 Life insurance\n\u2022 Paid time off\n\u2022 Vision insurance\n\u2022 Must be us citizen\n\u2022 Must ready to start within one month\n\u2022 No any type of visa sponsorship\n\nCompensation package:\n\u2022 Bonus pay\n\u2022 Performance bonus\n\u2022 Yearly bonus\n\u2022 Yearly pay\n\nExperience level:\n\u2022 3 years\n\nSchedule:\n\u2022 Monday to Friday",
+            "job_highlights": [
+                {
+                    "title": "Qualifications",
+                    "items": [
+                        "Computer Science or related field",
+                        "Proven experience as a .NET Developer",
+                        "Experience with ASP",
+                        "NET Core, design/architectural patterns (e.g. Model-View-Controller (MVC))",
+                        "Knowledge of at least one of the .NET languages (e.g. C#, Visual Basic .NET)",
+                        "Experience with front end development using HTML5/CSS3, JavaScript Libraries - jQuery",
+                        "Experience in database design and development (Microsoft SQL Server)Experience working with relational databases in cloud environments",
+                        "Experience with concurrent development source control (Git)",
+                        "Excellent troubleshooting and communication skills",
+                        "Must have excellent problem-solving skills and the ability to multi-task within tight deadlines; self-directed, and results/goal oriented",
+                        "Must have the drive to investigate new technologies and the ability to articulate concepts and designs",
+                        "Must be us citizen",
+                        "Must ready to start within one month",
+                        "3 years"
+                    ]
+                },
+                {
+                    "title": "Responsibilities",
+                    "items": [
+                        "You would be a key member of our Information Technology Team, solving complex and unique business challenges with cloud native architectures in a collaborative agile environment",
+                        "Working with and across multiple Agile teams to oversee design, development, testing, deployment, and support of technology solutions",
+                        "Participate in code reviews and requirements analysis",
+                        "Collaborate with internal teams to produce software design and architecture",
+                        "Write clean, scalable code using programming languages",
+                        "Test and deploy applications and systems",
+                        "Build applications to leverage cloud platform services for maximum impact",
+                        "Revise, update, refactor and debug code",
+                        "Develop documentation throughout the software development life cycle (SDLC)",
+                        "Serve as an expert on applications and provide technical support",
+                        "Practice a \u201cyou build it, you own it\u201d discipline to application development"
+                    ]
+                },
+                {
+                    "title": "Benefits",
+                    "items": [
+                        "Pay: $125,000.00 - $135,000.00 per year",
+                        "401(k) matching",
+                        "Dental insurance",
+                        "Flexible schedule",
+                        "Flexible spending account",
+                        "Health insurance",
+                        "Health savings account",
+                        "Life insurance",
+                        "Paid time off",
+                        "Vision insurance",
+                        "No any type of visa sponsorship",
+                        "Compensation package:",
+                        "Bonus pay",
+                        "Performance bonus",
+                        "Yearly bonus"
+                    ]
+                }
+            ],
+            "related_links": [
+                {
+                    "link": "http://www.urbanair.com/",
+                    "text": "urbanair.com"
+                },
+                {
+                    "link": "https://www.google.com/search?sca_esv=f057219ff9d50998&sca_upv=1&q=Urban+Air+Adventure+Parks&sa=X&ved=0ahUKEwjnvKuygdOCAxXzQjABHUueBR0QmJACCNwJ",
+                    "text": "See web results for Urban Air Adventure Parks"
+                }
+            ],
+            "extensions": [
+                "5 days ago",
+                "125K\u2013135K a year",
+                "Full-time",
+                "No degree mentioned",
+                "Health insurance",
+                "Dental insurance",
+                "Paid time off"
+            ],
+            "detected_extensions": {
+                "posted_at": "5 days ago",
+                "schedule_type": "Full-time",
+                "salary": "125K\u2013135K a year"
+            },
+            "job_id": "eyJqb2JfdGl0bGUiOiJTb2Z0d2FyZSBFbmdpbmVlciAtU0UwMjgyIiwiaHRpZG9jaWQiOiI3M1RjZ1JQNEcxRUE0V3dPQUFBQUFBPT0iLCJ1dWxlIjoidytDQUlRSUNJRVUyRnVJRVp5WVc1amFYTmpieTFQWVd0c1lXNWtMVk5oYmlCS2IzTmxMRU5CTEVOaGJHbG1iM0p1YVdFc1ZXNXBkR1ZrSUZOMFlYUmxjdyIsImZjIjoiRXN3Q0Nvd0NRVXhQYm5CWlZqRkxNVFl4UWs5VlkwbExVVmh1V1VkYU16UlJhbkF3VTBwSmVXNWZPQzF1U0U5RE1HOWFOak5NVUdaWE56TXlhSGxuUnpKblQxOVdObUZqWkhWak9IZFdTbTlVV1d4RFZscERZMFpUUkUxT1VXZFVlbkJvWVhnd00zSlhSVVZMT1ROTFlVeHVjMWM1WjJaS1dqUnpVV3d6VkVoMGRVeDJaeTA0TmtKR1UyczJRbkZMZGxWcFlucDFUVXhKV2tSNVdrbE9aamwxTlVReVZuSklOMng2WlVSMmVrUjJhVFpvVFhoSlVqTTBZVGd3Vmxwc2MwVnFaREI2YlZOcWNXdDJlVU5aZERSck9XZHNURmcwT1VWRWVsY3RiVzVQZFVwRVNEUnpVR2xPYWpoSldGZGFWbWx0YUhGVmVUWndVbVUwTWtwSGVsRmtkMUpPVlhwZk1rdzBlVFpvWDJveWRCSVhRMWwwWWxwaFpWVkpYMDlHZDJKclVIazNlVmMyUVVVYUlrRktkMnN0T0dVNU0wSTNMVXgwWjBSWE9WOUpReloyVUVOVU9Vc3RTMDlyWkhjIiwiZmN2IjoiMyIsImZjX2lkIjoiZmNfMSIsImFwcGx5X2xpbmsiOnsidGl0bGUiOiIubkZnMmVie2ZvbnQtd2VpZ2h0OjUwMH0uQmk2RGRje2ZvbnQtd2VpZ2h0OjUwMH1BcHBseSBkaXJlY3RseSBvbiBaaXBSZWNydWl0ZXIiLCJsaW5rIjoiaHR0cHM6Ly93d3cuemlwcmVjcnVpdGVyLmNvbS9jL1VyYmFuLUFpci1BZHZlbnR1cmUtUGFya3MvSm9iL1NvZnR3YXJlLUVuZ2luZWVyLVNFMDI4Mi8taW4tU2FpbnQtUGV0ZXJzYnVyZyxGTD9qaWQ9MWZiMTFhNjVkZWU0ZmJhNlx1MDAyNnV0bV9jYW1wYWlnbj1nb29nbGVfam9ic19hcHBseVx1MDAyNnV0bV9zb3VyY2U9Z29vZ2xlX2pvYnNfYXBwbHlcdTAwMjZ1dG1fbWVkaXVtPW9yZ2FuaWMifX0="
+        },
+        {
+            "title": "Sr Software Engineer \u2013 Edge Platform - REMOTE",
+            "company_name": "Publix",
+            "location": "  Lakeland, FL   ",
+            "via": "via Publix Jobs And Careers",
+            "description": "Publix is able to offer virtual/remote employment for this position in the following states: FL, GA, AL, TN, SC, NC, VA.\n\nJoin the Publix Architecture team to enable Publix\u2019s digital transformation at the edge. This software engineer will be at the forefront of Publix\u2019s adoption of new technologies and practices. You will join a team of architects and engineers developing our edge platform... centered around bringing a cloud native platform to facilitate modern business application development.\nResponsibilities:\n\u2022 Develop common services/components running at the edge\n\u2022 Develop operation and management services/components to manage thousands of locations and applications\n\u2022 Develop proof-of-concepts\n\u2022 Learn new technologies with a focus on cloud native\n\u2022 Develop unit tests and perform functional testing of solutions\n\u2022 Develop technical documentation\n\u2022 Work with application teams to adopt the edge platform",
+            "job_highlights": [
+                {
+                    "title": "Responsibilities",
+                    "items": [
+                        "This software engineer will be at the forefront of Publix\u2019s adoption of new technologies and practices",
+                        "You will join a team of architects and engineers developing our edge platform centered around bringing a cloud native platform to facilitate modern business application development",
+                        "Develop common services/components running at the edge",
+                        "Develop operation and management services/components to manage thousands of locations and applications",
+                        "Develop proof-of-concepts",
+                        "Learn new technologies with a focus on cloud native",
+                        "Develop unit tests and perform functional testing of solutions",
+                        "Develop technical documentation",
+                        "Work with application teams to adopt the edge platform"
+                    ]
+                }
+            ],
+            "related_links": [
+                {
+                    "link": "http://www.publix.com/",
+                    "text": "publix.com"
+                },
+                {
+                    "link": "https://www.google.com/search?sca_esv=f057219ff9d50998&sca_upv=1&q=Publix&sa=X&ved=0ahUKEwjnvKuygdOCAxXzQjABHUueBR0QmJACCKYK",
+                    "text": "See web results for Publix"
+                }
+            ],
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvdDeGY1IKvqB55Y5pulkgIEL0JguYnZ-62mSC&s=0",
+            "extensions": [
+                "6 days ago",
+                "Full-time"
+            ],
+            "detected_extensions": {
+                "posted_at": "6 days ago",
+                "schedule_type": "Full-time"
+            },
+            "job_id": "eyJqb2JfdGl0bGUiOiJTciBTb2Z0d2FyZSBFbmdpbmVlciDigJMgRWRnZSBQbGF0Zm9ybSAtIFJFTU9URSIsImh0aWRvY2lkIjoiOHI1YlI1d2hpc25oZWh5Q0FBQUFBQT09IiwidXVsZSI6IncrQ0FJUUlDSUVVMkZ1SUVaeVlXNWphWE5qYnkxUFlXdHNZVzVrTFZOaGJpQktiM05sTEVOQkxFTmhiR2xtYjNKdWFXRXNWVzVwZEdWa0lGTjBZWFJsY3ciLCJmYyI6IkVzd0NDb3dDUVV4UGJuQlpWbGRWTTJkWE1HOVZaR2w2VEhkQ04wVmtiM0JOY0ZsSFIzUTBlamN0VlcxTVpHaExkV3RHYmw5MlZWaG9hRjl2WDBzNVowRkJSRFJoWVU0NVdGcFdVVTFZYVV0cmFra3RibUpYTFdWRU9XOHdkbWxpZUZSdU9VSTFha2hzUTFBNU1rbDNNVlJwTlRoRFYzQkVNRXRvWTNOaWRVbG1WSFZpV1U5UU5YaHdNR0ZUVEhCQ2JTMXdTR05oWWtSMGFXdFRZMFZ3UkU0M1QwNTJhbXMzWDJWNlMzQnhXRlIwV0hCMlNrbHNVRFl0VURWbFdsVk5RbkZvTkRnNGFtbHBhM2RuVm1WSk1HeENRVXhKTUZwR1ZFcHdTVU5VTWs5bmJrSjZlbEl5VTJKd2NUZHhlbTVVV1Y5VFdVNUlSSFZvYWtoR2VFZDVZVkpoTFVoM00yZE1hekV0T1hONVJXczJSaElYUTFsMFlscGhaVlZKWDA5R2QySnJVSGszZVZjMlFVVWFJa0ZLZDJzdE9HUjZXRVV4Y1dwdlMxZGZiRlJrZEZsUlgyZHFXbGh0VldveVNYYyIsImZjdiI6IjMiLCJmY19pZCI6ImZjXzMiLCJhcHBseV9saW5rIjp7InRpdGxlIjoiQXBwbHkgb24gUHVibGl4IEpvYnMgQW5kIENhcmVlcnMiLCJsaW5rIjoiaHR0cHM6Ly9qb2JzLnB1YmxpeC5jb20vam9iL2xha2VsYW5kL3NyLXNvZnR3YXJlLWVuZ2luZWVyLWVkZ2UtcGxhdGZvcm0tcmVtb3RlLzk0NC81NzI5NTA1OTI2ND91dG1fY2FtcGFpZ249Z29vZ2xlX2pvYnNfYXBwbHlcdTAwMjZ1dG1fc291cmNlPWdvb2dsZV9qb2JzX2FwcGx5XHUwMDI2dXRtX21lZGl1bT1vcmdhbmljIn19"
+        },
+        {
+            "title": "Senior Software Engineer (Java Spring Boot Experience Required)",
+            "company_name": "Mad Mobile",
+            "location": "  Tampa, FL   ",
+            "via": "via LinkedIn",
+            "description": "Mad Mobile is leading the charge in building the next generation of retail and restaurant experiences. In today's rapidly evolving market, customer expectations continue to change, and Mad Mobile is at the forefront of innovation. We empower customers to engage and purchase from brands seamlessly, whether they're in-store, outside the four walls, or on the go. Our platform already supports some... of the biggest brands, and we're always looking for new ways to engage with Customers, increase in-store productivity and ultimately drive transactional value. If you're passionate about creating exceptional experiences and shaping the future of retail and restaurants, Mad Mobile is the place for you!\n\nAbout the Role:\u202f\n\nAs a Senior Engineer at Mad Mobile, you will play a pivotal role in defining, developing, and delivering innovative solutions that revolutionize the retail and restaurant industries. Your expertise in technical leadership, project management, and collaboration will be essential in driving the success of our engineering projects.\n\nRole will be located in Tampa, FL. Remote Opportunities are not available at this time.\n\nIn this role you will:\u202f\n\u2022 Develop new features and bugfixes for Java Sprint Boot application\n\u2022 Define and document technical requirements in planning phase to be ready for development\n\u2022 Participate in architectural process to align technical direction prior to implementation\n\u2022 Participate in triage and analysis of reported issues in deployed software\n\u2022 Participate in scrum process on a daily basis and sprint ceremonies\n\nWe are looking for someone who has:\u202f\n\u2022 5+ years\u2019 experience with Java\n\u2022 3+ years\u2019 of experience with Spring Boot\n\u2022 3+ years\u2019 experience with Java web containers like Jetty, Tomcat, etc.\n\u2022 DB design fundamentals\n\nKey skills needed to be successful in the role:\n\u2022 Experience programming against or implementing Point of Sale (POS) systems, Aloha / Simphony especially\n\u2022 Experience programming against or implementing eCommerce solutions\n\u2022 Experience with AOP\n\nOur core values:\n\u2022 Customer \u2013 WE believe that our customers deserve the best from us every day.\n\u2022 Accountability \u2013 WE take ownership and make things happen.\n\u2022 Teamwork \u2013 WE win as a team and have fun doing it.\n\u2022 Innovation \u2013 WE innovate, inspire, ignite the future!\u202f\n\u2022 Integrity \u2013 WE are honest, ethical, and trustworthy.\u202f\n\nWhy Mad Mobile?\n\nMad Mobile is the #38 fastest-growing company in Florida and #9 on the Tampa Bay\u202fTimes Top 100 Workplace List. We\u2019re proud of our culture and promote diversity and a\u202fhealthy work-life balance.\n\nWhat about the benefits you ask?\n\nAt Mad Mobile, we're committed to taking care of our employees right from the start. That's why there's no waiting period for our plans \u2013 they kick in from day one. We're proud to offer market leading benefits for medical, dental, and vision and cover a generous amount of your premiums. To make sure you're off to a great start, we even provide you with a $1000 HSA contribution (prorated based on your start date and split into two payments).\n\nAdditionally, we provide a 401(k) plan with a matching contribution of up to 6%, and the best part is you're fully vested from day one. At Mad Mobile, we're not only building the next generation of in-store experiences; we're also building the next generation of incredible teams.\n\nEEOC Statement\u202f\n\nMad Mobile is an equal opportunity employer. Applicants will not be discriminated against because of race, color, creed, sex, sexual orientation, gender identity or expression, age, religion, national origin, citizenship status, disability, ancestry, marital status, veteran status, medical condition, or any protected category prohibited by local, state or federal laws.\u202f\n\u2022 Headhunters and recruitment agencies may not submit resumes/CVs through this website or directly to managers. Mad Mobile does not accept unsolicited headhunter and agency resumes. Mad Mobile will not pay fees to any third-party agency or company that does not have a signed agreement with Mad Mobile.\n\nPowered by JazzHR\n\n4VyLYb1XLX",
+            "job_highlights": [
+                {
+                    "title": "Qualifications",
+                    "items": [
+                        "5+ years\u2019 experience with Java",
+                        "3+ years\u2019 of experience with Spring Boot",
+                        "3+ years\u2019 experience with Java web containers like Jetty, Tomcat, etc",
+                        "DB design fundamentals",
+                        "Experience programming against or implementing Point of Sale (POS) systems, Aloha / Simphony especially",
+                        "Experience programming against or implementing eCommerce solutions",
+                        "Experience with AOP"
+                    ]
+                },
+                {
+                    "title": "Responsibilities",
+                    "items": [
+                        "Your expertise in technical leadership, project management, and collaboration will be essential in driving the success of our engineering projects",
+                        "Develop new features and bugfixes for Java Sprint Boot application",
+                        "Define and document technical requirements in planning phase to be ready for development",
+                        "Participate in architectural process to align technical direction prior to implementation",
+                        "Participate in triage and analysis of reported issues in deployed software",
+                        "Participate in scrum process on a daily basis and sprint ceremonies"
+                    ]
+                },
+                {
+                    "title": "Benefits",
+                    "items": [
+                        "We're proud to offer market leading benefits for medical, dental, and vision and cover a generous amount of your premiums",
+                        "To make sure you're off to a great start, we even provide you with a $1000 HSA contribution (prorated based on your start date and split into two payments)",
+                        "Additionally, we provide a 401(k) plan with a matching contribution of up to 6%, and the best part is you're fully vested from day one"
+                    ]
+                }
+            ],
+            "related_links": [
+                {
+                    "link": "https://www.google.com/search?sca_esv=f057219ff9d50998&sca_upv=1&q=Mad+Mobile&sa=X&ved=0ahUKEwjnvKuygdOCAxXzQjABHUueBR0QmJACCPMK",
+                    "text": "See web results for Mad Mobile"
+                }
+            ],
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs1AOwtCGn9b-MdrbNgp6lLNoOPq5wXYmbMPUmLHc&s",
+            "extensions": [
+                "3 days ago",
+                "Full-time",
+                "No degree mentioned",
+                "Health insurance",
+                "Dental insurance"
+            ],
+            "detected_extensions": {
+                "posted_at": "3 days ago",
+                "schedule_type": "Full-time"
+            },
+            "job_id": "eyJqb2JfdGl0bGUiOiJTZW5pb3IgU29mdHdhcmUgRW5naW5lZXIgKEphdmEgU3ByaW5nIEJvb3QgRXhwZXJpZW5jZSBSZXF1aXJlZCkiLCJodGlkb2NpZCI6IjUzbkFCdXJtUGNzYlJ4M3pBQUFBQUE9PSIsInV1bGUiOiJ3K0NBSVFJQ0lFVTJGdUlFWnlZVzVqYVhOamJ5MVBZV3RzWVc1a0xWTmhiaUJLYjNObExFTkJMRU5oYkdsbWIzSnVhV0VzVlc1cGRHVmtJRk4wWVhSbGN3IiwiZmMiOiJFc3dDQ293Q1FVeFBibkJaV0hSWE1rcEdhVjkxWVZwemNUbHRhRzlQT0RSNWRYRTRVV0kzWTNGU1NYbGliakJDU2xwU1p6bE9XbEkxWlMxbE1UUjFaMlphZFcxQlNGWkJZbUpRYlVFNVRVTjJVbkV0YjI5d2NXbzVZWGxZVDNwalYyNWpRbTVRYTI1TmNVRmlXR0oyZVZGWmExSjNkRlo1Tkd0TmQwMWZObWROTTJrMlZIcEZVSEYwT1RKVk1FdGtkMHhDYkdSVVVrVmhWRXRJZUc1T1NYWlphME5WTjIxNE1HdG9VRVZYU0ZsMFEwYzFaMkZaYXkxaVJEZEhRWEJHVTAxMGFFY3pkalY2YmtKQ2RrRnRhbGQzUlc1UFdIaHBkVVYxU0hKV1JqWjFiMlV6YUVsUk1UaGpjWGw1Tmt4aFRFRTJkbVYyUTNKMmRteG9TWGMyY0RaWFpuZExaVFppY3pacVRUbE1ORVJOT0JJWFExbDBZbHBoWlZWSlgwOUdkMkpyVUhrM2VWYzJRVVVhSWtGS2Qyc3RPR1o0WlRNeVgyVlJNakpZYldvMlEydG5NVzVYYVhwVGJVazFPVUUiLCJmY3YiOiIzIiwiZmNfaWQiOiJmY181IiwiYXBwbHlfbGluayI6eyJ0aXRsZSI6IkFwcGx5IG9uIExpbmtlZEluIiwibGluayI6Imh0dHBzOi8vd3d3LmxpbmtlZGluLmNvbS9qb2JzL3ZpZXcvc2VuaW9yLXNvZnR3YXJlLWVuZ2luZWVyLWphdmEtc3ByaW5nLWJvb3QtZXhwZXJpZW5jZS1yZXF1aXJlZC1hdC1tYWQtbW9iaWxlLTM3Njg4MDQzODg/dXRtX2NhbXBhaWduPWdvb2dsZV9qb2JzX2FwcGx5XHUwMDI2dXRtX3NvdXJjZT1nb29nbGVfam9ic19hcHBseVx1MDAyNnV0bV9tZWRpdW09b3JnYW5pYyJ9fQ=="
+        },
+        {
+            "title": "Software Engineer (Remote)",
+            "company_name": "The Home Depot",
+            "location": "  Tampa, FL   ",
+            "via": "via Geebo",
+            "description": "Position Purpose:\nThe Software Engineer is responsible for assisting in developing and designing a product that Home Depot customers and associates will love. As a Software Engineer, you will be part of a dynamic team with engineers of all experience levels who help each other build and grow technical and leadership skills while creating, deploying, and supporting production applications. In addition, Software Engineers may be involved in product configuration, security, resilience, performance tuning and production monitoring.Major Tasks, Responsibilities & Key Accountabilities:\n60% Delivers and Executes - Assists in developing, testing, deploying, and maintaining software; Follows best practices established by the organization and participates in improvement conversations; Consistently helps the team achieve results, even under tough circumstances 20% Learns and Grows - Learns through successful and failed experiment when tackling new problems; Actively seeks ways to grow and be... challenged using both formal and informal development channels 20% Plans and Aligns - Builds partnerships and works collaboratively with others to meet shared objectives; Collaborates with other team members in agile processes; Relates openly and comfortably with diverse groups of people Nature and Scope:\nThis position typically reports to Software Engineer Manager or Sr. Manager This position has 0 Direct Reports For Colorado, Connecticut, Nevada and New York City residents:\nThe pay range for this position is between $50k and $130k. Starting salary may vary based on a number of factors including, but not limited to, the position being offered, location, education, training, and/or experience. The Home Depot offers additional competitive financial and non-financial benefits, which may include a performance-based bonus program or a profit sharing program depending on position. Environmental Job Requirements:\nEnvironment:\n1. Located in a comfortable indoor area. Any unpleasant conditions would be infrequent and not objectionable. Travel:\nNo travel required. Standard Minimum\nQualifications:\nMust be eighteen years of age or older. Must be legally permitted to work in the United States.Education Required:\nThe knowledge, skills and abilities typically acquired through the completion of a bachelor's degree program or equivalent degree in a field of study related to the job. Years of Relevant Work\nExperience:\n1 years Physical Requirements:\nMost of the time is spent sitting in a comfortable position and there is frequent opportunity to move about. On rare occasions there may be a need to move or lift light articles. Preferred\nQualifications:\n- Exposure to front end technology such as HTML, CSS, and Javascript/Typescript frameworks - Exposure to an object-oriented programming language (preferably Java) - Exposure to source code version control - Exposure to Relational or noSQL database technology - Exposure to cloud computing techniques - Exposure to CI/CD tools - Exposure to microservice-based architecture Knowledge, Skills, Abilities and Competencies:\n- Global Perspective - Manages Ambiguity - Nimble Learning - Self-Development - Collaborates - Cultivates Innovation - Situational Adaptability - Communicates Effectively - Drives Results - Interpersonal Savvy\nSalary Range:\n$80K -- $100K\nMinimum Qualification\nSoftware DevelopmentEstimated Salary: $20 to $28 per hour based on qualifications",
+            "job_highlights": [
+                {
+                    "items": [
+                        "Position Purpose:\nThe Software Engineer is responsible for assisting in developing and designing a product that Home Depot customers and associates will love. As a Software Engineer, you will be part of a dynamic team with engineers of all experience levels who help each other build and grow technical and leadership skills while creating, deploying, and supporting production applications. In addition, Software Engineers may be involved in product configuration, security, resilience, performance tuning and production monitoring.Major Tasks, Responsibilities & Key Accountabilities:\n60% Delivers and Executes - Assists in developing, testing, deploying, and maintaining software; Follows best practices established by the organization and participates in improvement conversations; Consistently helps the team achieve results, even under tough circumstances 20% Learns and Grows - Learns through successful and failed experiment when tackling new problems; Actively seeks ways to grow and be... challenged using both formal and informal development channels 20% Plans and Aligns - Builds partnerships and works collaboratively with others to meet shared objectives; Collaborates with other team members in agile processes; Relates openly and comfortably with diverse groups of people Nature and Scope:\nThis position typically reports to Software Engineer Manager or Sr. Manager This position has 0 Direct Reports For Colorado, Connecticut, Nevada and New York City residents:\nThe pay range for this position is between $50k and $130k. Starting salary may vary based on a number of factors including, but not limited to, the position being offered, location, education, training, and/or experience. The Home Depot offers additional competitive financial and non-financial benefits, which may include a performance-based bonus program or a profit sharing program depending on position. Environmental Job Requirements:\nEnvironment:\n1. Located in a comfortable indoor area. Any unpleasant conditions would be infrequent and not objectionable. Travel:\nNo travel required. Standard Minimum\nQualifications:\nMust be eighteen years of age or older. Must be legally permitted to work in the United States.Education Required:\nThe knowledge, skills and abilities typically acquired through the completion of a bachelor's degree program or equivalent degree in a field of study related to the job. Years of Relevant Work\nExperience:\n1 years Physical Requirements:\nMost of the time is spent sitting in a comfortable position and there is frequent opportunity to move about. On rare occasions there may be a need to move or lift light articles. Preferred\nQualifications:\n- Exposure to front end technology such as HTML, CSS, and Javascript/Typescript frameworks - Exposure to an object-oriented programming language (preferably Java) - Exposure to source code version control - Exposure to Relational or noSQL database technology - Exposure to cloud computing techniques - Exposure to CI/CD tools - Exposure to microservice-based architecture Knowledge, Skills, Abilities and Competencies:\n- Global Perspective - Manages Ambiguity - Nimble Learning - Self-Development - Collaborates - Cultivates Innovation - Situational Adaptability - Communicates Effectively - Drives Results - Interpersonal Savvy\nSalary Range:\n$80K -- $100K\nMinimum Qualification\nSoftware DevelopmentEstimated Salary: $20 to $28 per hour based on qualifications"
+                    ]
+                }
+            ],
+            "related_links": [
+                {
+                    "link": "http://www.homedepot.com/",
+                    "text": "homedepot.com"
+                },
+                {
+                    "link": "https://www.google.com/search?sca_esv=f057219ff9d50998&sca_upv=1&q=The+Home+Depot&sa=X&ved=0ahUKEwjnvKuygdOCAxXzQjABHUueBR0QmJACCKoL",
+                    "text": "See web results for The Home Depot"
+                }
+            ],
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTduzkMbCWB8JuQsRzBoI5Q2KA78nSQi2ZVbmre&s=0",
+            "extensions": [
+                "4 days ago",
+                "20\u201328 an hour",
+                "Full-time",
+                "Health insurance"
+            ],
+            "detected_extensions": {
+                "posted_at": "4 days ago",
+                "schedule_type": "Full-time",
+                "salary": "20\u201328 an hour"
+            },
+            "job_id": "eyJqb2JfdGl0bGUiOiJTb2Z0d2FyZSBFbmdpbmVlciAoUmVtb3RlKSIsImh0aWRvY2lkIjoiZGdWQXpoa2FvMF9JZXVZYUFBQUFBQT09IiwidXVsZSI6IncrQ0FJUUlDSUVVMkZ1SUVaeVlXNWphWE5qYnkxUFlXdHNZVzVrTFZOaGJpQktiM05sTEVOQkxFTmhiR2xtYjNKdWFXRXNWVzVwZEdWa0lGTjBZWFJsY3ciLCJmYyI6IkVxSUNDdUlCUVV4UGJuQlpWMHRLVlhGWmVWZG1Xamt4ZW1kdmNXZFpUbkp6WW1sTlJXaGZWemxPWW0xRlFXcElUWGwyVURCVlRYSjVhelZZWkdwUVNuRlhPVTQyYkd4bk5EbHhjbTVuV0c5cVVHNUxjVVF0UkhGSVJGTTVTRGszTm1GR1VreHhlVE0yYkRsRlQzQTFVRkozTjJSaFYyaEpkbVZzVmtSRVdUTjBWRWhQYkRGdGRrWjFObFZ5YUVzME1tRnpaakpaZVhCM01USlRZVzVFV2pkTk9XMVhValV6UkdSbVVUQk9hMnh4UW14UllXaDNZV3BDVmpnM1FtNHRkWGN4UjNOTFp6WnBMUzFqY0hJeUxUbFVjbHB6U1VKMGMwZ3liR3RaWVZkTmJWSjVkVUZQZHhJWFExbDBZbHBoWlZWSlgwOUdkMkpyVUhrM2VWYzJRVVVhSWtGS2Qyc3RPR1ZRUjJRMmJ6WkhVSEJxTVdGaE1HVTJPRTFOVVRoZlFWbFBNWGMiLCJmY3YiOiIzIiwiZmNfaWQiOiJmY182IiwiYXBwbHlfbGluayI6eyJ0aXRsZSI6IkFwcGx5IGRpcmVjdGx5IG9uIEdlZWJvIiwibGluayI6Imh0dHBzOi8vZ2VlYm8uY29tL2pvYnMtb25saW5lL3ZpZXcvaWQvMTA4NTY5MDc4OS1zb2Z0d2FyZS1lbmdpbmVlci1yZW1vdGUtLz91dG1fY2FtcGFpZ249Z29vZ2xlX2pvYnNfYXBwbHlcdTAwMjZ1dG1fc291cmNlPWdvb2dsZV9qb2JzX2FwcGx5XHUwMDI2dXRtX21lZGl1bT1vcmdhbmljIn19"
+        },
+        {
+            "title": "Software Engineer  - VP - Tampa - Hybrid (HM)",
+            "company_name": "Citi",
+            "location": "  Tampa, FL   ",
+            "via": "via Jobs And Careers At Citi",
+            "description": "\u2022 The Role\n\nWe are looking for experienced full-stack software engineers who are passionate about solving business problems through innovation and engineering practices. This role will be responsible for writing code, pairing with other developers as appropriate, decomposing acceptance criteria to understand team backlog deliverables, complexities, and risk, while working as a strong contributor... on an agile team.\n\nFrom a technical standpoint, the Software Engineer has full-stack coding and implementation responsibilities and adheres to best practice principles including modern cloud-based software development, agile and scrum, code quality, and tool usage. The Software Engineer works to understand and influence software architecture, while contributing to Citi\u2019s and GFT\u2019s technical user base.\n\nResponsibilities\n\u2022 * Apply depth of knowledge and expertise to all aspects of the software development lifecycle, as well as partner continuously with stakeholders on a regular basis\n\u2022 Develop and engineer solutions within an Agile software delivery team, working to collaboratively deliver sprint goals, write code, and participate in the broader Citi technical community and team-level Agile and Scrum processes.\n\u2022 Contribute to the design, documentation, and development of world-class enterprise applications leveraging the latest technologies and software design patterns.\n\u2022 Leverage technical knowledge of concepts and procedures within own area and basic knowledge of other areas to resolve issues, as necessary.\n\u2022 Follow and contribute to defining technical and team standards.\n\u2022 Collaborate technical leadership to achieve established goals, in line with our broader technical strategy.\n\nRequired Qualifications\n\u2022 * 5+ years of experience as a Software Engineer/Developer using Java\n\u2022 Multiple years of experience with software engineering best practices (unit testing, automation, design patterns, peer review, etc.)\n\u2022 Clear understanding of Data Structures and Object Oriented Principles using Java\n\u2022 Multiple years of experience with Cloud-native development and Container Orchestration tools (Serverless, Docker, Kubernetes, OpenShift, etc.).\n\u2022 Multiple years of experience on Service Oriented and MicroServices architectures, including REST and GraphQL implementations\n\u2022 Multiple years of experience with frameworks like Spring Boot, Quarkus, Micronaut, or Vert.x\n\u2022 Exposure to Continuous Integration and Continuous Delivery (CI/CD) pipelines, either on-premise or public cloud (i.e., Tekton, Harness, CircleCI, Cloudbees Jenkins, etc.)\n\u2022 Multiple years of experience with agile and iterative software delivery\n\u2022 BA/BS degree or equivalent work experience\n\nPreferred Qualifications\n\u2022 * Exposure to architecture experience in building horizontally scalable, highly available, highly resilient, and low latency applications\n\u2022 Exposure to Cloud infrastructure both on-premise and public cloud (i.e., OpenShift, AWS, etc.)\n\u2022 Exposure to event-driven design and architecture (i.e., Kafka, Spark Flink, etc.)\n\u2022 Exposure to API Management tools\n\u2022 Exposure to Infrastructure as Code tools (i.e., Terraform, Cloudformation, etc.)\n\u2022 Exposure to Security, Observability, and Monitoring tools (i.e., Grafana Prometheus, Splunk, ELK, CloudWatch, etc.)\n\u2022 Experience mentoring and\u202fproviding\u202ftechnical leadership for teams of 5\u202for\u202fmore developers\n\u2022 Exposure to database concepts (RDBMS, NoSQL) and web-based technologies (Angular/React) is a plus\n\u2022 As a bank with a brain and a soul, Citi creates economic value that is systemically accountable and in our clients\u2019 best interests. As a financial institution that touches every region of the world and every sector that shapes your daily life, Citi\u2019s Operations & Technology teams are charged with a mission that rivals any large tech company. Our technology solutions are the foundation of everything we do. We keep the bank safe and provide the technical tools our workers need to be successful. We design our digital architecture and ensure our platforms provide a first-class customer experience. Our operations teams manage risk, resources, and technology programs. We focus on enterprise resiliency and business continuity. We develop, coordinate, and execute strategic operational plans. Essentially, Citi Operations & Technology re-engineers client and partner processes to deliver excellence through secure, reliable, and controlled services.\n\nGlobal Functions Technology (GFT) is a diverse organization comprised of more than 15,000 talented professionals with some of the brightest minds \u2013 all working collectively to realize Citi\u2019s Vision of growth and economic progress. As a group, we partner with Finance, Risk, Compliance, Human Resources and other Global Functions teams to drive the delivery of innovative technology solutions using common data, data analysis, and platforms. Our technology operates in real-time environments, capturing and managing market, transaction, and accounting data, as well as the data from millions of customers daily. Our solutions cover all products and geographies in which Citi does business. We are the backbone for reporting across the bank, satisfying our regulatory obligations, enabling our businesses to be nimbler and helping to safeguard customer assets through highly effective controls.\n\nGFT is accountable for delivering end-to-end application design and development and providing infrastructure service advocacy to the Global Functions across Citi\u2019s lines of business and regions. As part of Citi\u2019s broad transformation strategy, GFT is presently undergoing a large-scale, multi-year Agile transformation across our 16K-person organization. In the context of that transformation, we will need proven, sound, and solid software engineers, agile practitioners, and technical team managers to drive the success of our nascent agile teams.\n\nWho You Will Work With\n\nAs part of a modernized financial technology company, our Engineers are hyper-focused on disrupting the market through bringing to life the art of the possible for our business. We have passion for building strategies, designing solutions, and creating innovative products to help our business solve their most complex and interesting problems. We surround our technologists with thought provoking problems, emerging technologies, and an immersive, innovative culture. The breadth in capabilities assures that Citi can underpin teams with what they need to deliver against an enterprise-level forward-thinking vision. We are risk managers trained to take controlled risks to advance our technology and business objectives. Put simply, we collectively design, build, implement and support business solutions and services to help solve complex problems to drive business value.\n\nAbout Citi\n\nCiti is a preeminent banking partner for institutions with cross-border needs, a global pioneer in wealth management and a valued personal bank in its home market of the United States. Citi does business in more than 160 countries and jurisdictions, providing corporations, governments, investors, institutions, and people with a broad range of financial products and services.\n\nOur commitment to diversity includes a workforce that represents the clients we serve globally from all walks of life, backgrounds, and origins. We foster an environment where the best people want to work. We value and demand respect for others, promote people based on merit, and ensure opportunities for personal development are widely available to all. Ideal candidates are innovators with well-rounded backgrounds who bring their authentic selves to work and complement our culture of delivering results with pride. If you are a problem solver who seeks passion in your work, come join us. We\u2019ll enable growth and progress collectively.\n\nAdditional information may be found at www.citigroup.com | Twitter: @Citi | YouTube: www.youtube.com/citi | Blog: http://blog.citigroup.com | Facebook: www.facebook.com/citi | LinkedIn: www.linkedin.com/company/citi.\n\n-------------------------------------------------\n\nJob Family Group:\nTechnology\n\n-------------------------------------------------\n\nJob Family:\nApplications Development\n\n------------------------------------------------------\n\nTime Type:\nFull time\n\n------------------------------------------------------\n\nPrimary Location:\nTampa Florida United States\n\n------------------------------------------------------\n\nPrimary Location Salary Range:\n$113,840.00 - $170,760.00\n\n------------------------------------------------------\n\nCiti is an equal opportunity and affirmative action employer.\n\nQualified applicants will receive consideration without regard to their race, color, religion, sex, sexual orientation, gender identity, national origin, disability, or status as a protected veteran.\n\nCitigroup Inc. and its subsidiaries (\"Citi\u201d) invite all qualified interested applicants to apply for career opportunities. If you are a person with a disability and need a reasonable accommodation to use our search tools and/or apply for a career opportunity review Accessibility at Citi.\n\nView the \"EEO is the Law\" poster. View the EEO is the Law Supplement.\n\nView the EEO Policy Statement.\n\nView the Pay Transparency Posting",
+            "job_highlights": [
+                {
+                    "title": "Qualifications",
+                    "items": [
+                        "5+ years of experience as a Software Engineer/Developer using Java",
+                        "Multiple years of experience with software engineering best practices (unit testing, automation, design patterns, peer review, etc.)",
+                        "Clear understanding of Data Structures and Object Oriented Principles using Java",
+                        "Multiple years of experience with Cloud-native development and Container Orchestration tools (Serverless, Docker, Kubernetes, OpenShift, etc.)",
+                        "Multiple years of experience on Service Oriented and MicroServices architectures, including REST and GraphQL implementations",
+                        "Multiple years of experience with frameworks like Spring Boot, Quarkus, Micronaut, or Vert.x",
+                        "Exposure to Continuous Integration and Continuous Delivery (CI/CD) pipelines, either on-premise or public cloud (i.e., Tekton, Harness, CircleCI, Cloudbees Jenkins, etc.)",
+                        "Multiple years of experience with agile and iterative software delivery",
+                        "BA/BS degree or equivalent work experience"
+                    ]
+                },
+                {
+                    "title": "Responsibilities",
+                    "items": [
+                        "From a technical standpoint, the Software Engineer has full-stack coding and implementation responsibilities and adheres to best practice principles including modern cloud-based software development, agile and scrum, code quality, and tool usage",
+                        "The Software Engineer works to understand and influence software architecture, while contributing to Citi\u2019s and GFT\u2019s technical user base",
+                        "Apply depth of knowledge and expertise to all aspects of the software development lifecycle, as well as partner continuously with stakeholders on a regular basis",
+                        "Develop and engineer solutions within an Agile software delivery team, working to collaboratively deliver sprint goals, write code, and participate in the broader Citi technical community and team-level Agile and Scrum processes",
+                        "Contribute to the design, documentation, and development of world-class enterprise applications leveraging the latest technologies and software design patterns",
+                        "Leverage technical knowledge of concepts and procedures within own area and basic knowledge of other areas to resolve issues, as necessary",
+                        "Follow and contribute to defining technical and team standards",
+                        "Collaborate technical leadership to achieve established goals, in line with our broader technical strategy",
+                        "We develop, coordinate, and execute strategic operational plans",
+                        "Essentially, Citi Operations & Technology re-engineers client and partner processes to deliver excellence through secure, reliable, and controlled services"
+                    ]
+                }
+            ],
+            "related_links": [
+                {
+                    "link": "http://www.citigroup.com/",
+                    "text": "citigroup.com"
+                },
+                {
+                    "link": "https://www.google.com/search?sca_esv=f057219ff9d50998&sca_upv=1&q=Citi&sa=X&ved=0ahUKEwjnvKuygdOCAxXzQjABHUueBR0QmJACCPsL",
+                    "text": "See web results for Citi"
+                }
+            ],
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrANtAyu2iQdARnP3jlZuUPysiwUO4v8cOXqq8oBA&s",
+            "extensions": [
+                "7 days ago",
+                "Full-time"
+            ],
+            "detected_extensions": {
+                "posted_at": "7 days ago",
+                "schedule_type": "Full-time"
+            },
+            "job_id": "eyJqb2JfdGl0bGUiOiJTb2Z0d2FyZSBFbmdpbmVlciAgLSBWUCAtIFRhbXBhIC0gSHlicmlkIChITSkiLCJodGlkb2NpZCI6Im9Qbjd4Q0FISG54aFZFRElBQUFBQUE9PSIsInV1bGUiOiJ3K0NBSVFJQ0lFVTJGdUlFWnlZVzVqYVhOamJ5MVBZV3RzWVc1a0xWTmhiaUJLYjNObExFTkJMRU5oYkdsbWIzSnVhV0VzVlc1cGRHVmtJRk4wWVhSbGN3IiwiZmMiOiJFcmNDQ3ZjQlFVeFBibkJaVm5jM2FUQXlPSGd4YWxKUlZXazROamQ1TldwNVpVdHRlbE5LUmtoRmNXTjBOamxCYjAxWWJtTlZiMUZZZUU5amMxa3RSRm94UlRJMVZUWlRhREY1YkhCSWNFbHdlRTFsZFdKNVUwMWpiemN4VW1OemFXUkJaMmhxVmtsV1owVndiR0ZGZWpoUVQxbDZUWEpOTFhkdVdFeFVRMlZDY1ZZMk9FUjVkMHhRZDNGQ1UxOWFMV296VlZKMVl6SXhOME00WWxWcFdHWkZMVWhFY1ZwQ1JVbzVhRXB5Tmtvd1MwcExOVm93V1ZVdGJETm5RM2xtZUdoWGVFdzNabWwzTjA5eExVSjZXRFJFVGtadFFYbG5kMmRJTlhSck4xbE9Za1pYVGs1c1NYcDRSREJ1TFVGdVlscDNSR1ZHYVUxM1dVZzBWUklYUTFsMFlscGhaVlZKWDA5R2QySnJVSGszZVZjMlFVVWFJa0ZLZDJzdE9HTllheTFYVmxSZlJWSlBOa1ZoYzNSUk56ZGZhak5yTVZScFVFRSIsImZjdiI6IjMiLCJmY19pZCI6ImZjXzgiLCJhcHBseV9saW5rIjp7InRpdGxlIjoiQXBwbHkgb24gSm9icyBBbmQgQ2FyZWVycyBBdCBDaXRpIiwibGluayI6Imh0dHBzOi8vam9icy5jaXRpLmNvbS9qb2IvdGFtcGEvc29mdHdhcmUtZW5naW5lZXItdnAtdGFtcGEtaHlicmlkLWhtLzI4Ny81NDk4OTkzNjcyMD91dG1fY2FtcGFpZ249Z29vZ2xlX2pvYnNfYXBwbHlcdTAwMjZ1dG1fc291cmNlPWdvb2dsZV9qb2JzX2FwcGx5XHUwMDI2dXRtX21lZGl1bT1vcmdhbmljIn19"
+        },
+        {
+            "title": "Software Engineer",
+            "company_name": "ZP Group",
+            "location": "  Tampa, FL   ",
+            "via": "via Zp Group - Careers ZP Group",
+            "description": "Zachary Piper Solutions is currently seeking a Software Engineer in Tampa, Florida. (FL). The Software Engineer will provide technical leadership in design, documentation, implementation, and test associated simulator hardware.\n\nResponsibilities of Software Engineer...\n\u2022 Expected to perform all phases of software implementation (code, off-line test, and documentation).\n\u2022 Responsible for assisting and training Datalink Systems engineers.\n\u2022 Accountable for all phases of customer and on-site acceptance of Avionics and Navigation systems.\n\nQualifications of the Software Engineer:\n\u2022 B.S. Degree in Computer Science, Computer Engineering, Electrical Engineering, Physics or Mathematics.\n\u2022 Minimum of 5 years\u2019 experience in the simulation or software development industry.\n\u2022 Must be eligible for a DoD Personal Security Clearance.\n\nCompensation for the Software Engineer: $85,000 - $110,000 with a full comprehensive benefits package\n\nKeywords:\n\nDatalink Systems, Software Engineer, Systems Engineer, Secret Clearance",
+            "job_highlights": [
+                {
+                    "title": "Qualifications",
+                    "items": [
+                        "B.S. Degree in Computer Science, Computer Engineering, Electrical Engineering, Physics or Mathematics",
+                        "Minimum of 5 years\u2019 experience in the simulation or software development industry",
+                        "Must be eligible for a DoD Personal Security Clearance"
+                    ]
+                },
+                {
+                    "title": "Responsibilities",
+                    "items": [
+                        "The Software Engineer will provide technical leadership in design, documentation, implementation, and test associated simulator hardware",
+                        "Expected to perform all phases of software implementation (code, off-line test, and documentation)",
+                        "Responsible for assisting and training Datalink Systems engineers",
+                        "Accountable for all phases of customer and on-site acceptance of Avionics and Navigation systems"
+                    ]
+                },
+                {
+                    "title": "Benefits",
+                    "items": [
+                        "Compensation for the Software Engineer: $85,000 - $110,000 with a full comprehensive benefits package"
+                    ]
+                }
+            ],
+            "related_links": [
+                {
+                    "link": "http://www.zpgroup.com/",
+                    "text": "zpgroup.com"
+                },
+                {
+                    "link": "https://www.google.com/search?sca_esv=f057219ff9d50998&sca_upv=1&q=ZP+Group&sa=X&ved=0ahUKEwjnvKuygdOCAxXzQjABHUueBR0QmJACCL8M",
+                    "text": "See web results for ZP Group"
+                }
+            ],
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTM3RKWx0UatWYjudqwx7keaRsKfsnlXQMHIq6O&s=0",
+            "extensions": [
+                "4 days ago",
+                "Full-time"
+            ],
+            "detected_extensions": {
+                "posted_at": "4 days ago",
+                "schedule_type": "Full-time"
+            },
+            "job_id": "eyJqb2JfdGl0bGUiOiJTb2Z0d2FyZSBFbmdpbmVlciIsImh0aWRvY2lkIjoicEVsWFMzUlV5M1preVBhMkFBQUFBQT09IiwidXVsZSI6IncrQ0FJUUlDSUVVMkZ1SUVaeVlXNWphWE5qYnkxUFlXdHNZVzVrTFZOaGJpQktiM05sTEVOQkxFTmhiR2xtYjNKdWFXRXNWVzVwZEdWa0lGTjBZWFJsY3ciLCJmYyI6IkVxSUNDdUlCUVV4UGJuQlpWMGxwZEhCU04yNUtYMmx6VlUwd01WOVFWVTVKZERac1VqRXhXRTlMUTNvMmIzZFZSWEJKZDJSc01XTnhSbmh2TjIxV2JFeHRlVk41U3prMmQwZ3dUakkxT1ZwZk5EQlZUbWRJZVdWUk9ETnJjMnByUWtSVlgwTkZUVk5vZUZaNlZWRmZMVkIwVFdGVWFWOVZYMWhUV0hWbU56RXhiWFZsVm5ocmNXaGZVRmw1YWpObk5YQlVkbG90Y0U4d05HeHFWV3h3VmxoS1dpMTVZMUpVV1c1aE5XeDZTUzFKTVRkM2NYRTViMGxEVDFaVlUxOTJWSE5ITldSVU1HeDJjRkZCYUhWbU4xQXpUMjVWUldabU0xSndSR280TjNGWGExaG9XbE5rWnhJWFExbDBZbHBoWlZWSlgwOUdkMkpyVUhrM2VWYzJRVVVhSWtGS2Qyc3RPR05WZVRjM2NVRjZiekowU1ZWYVUwdEJNRGxvWlhScFFsTjVZbEUiLCJmY3YiOiIzIiwiZmNfaWQiOiJmY18xMCIsImFwcGx5X2xpbmsiOnsidGl0bGUiOiJBcHBseSBvbiBacCBHcm91cCAtIENhcmVlcnMgWlAgR3JvdXAiLCJsaW5rIjoiaHR0cHM6Ly9jYXJlZXJzLnpwZ3JvdXAuY29tL2RldGFpbHMvOTM4NTUvc29mdHdhcmVfZW5naW5lZXI/dXRtX2NhbXBhaWduPWdvb2dsZV9qb2JzX2FwcGx5XHUwMDI2dXRtX3NvdXJjZT1nb29nbGVfam9ic19hcHBseVx1MDAyNnV0bV9tZWRpdW09b3JnYW5pYyJ9fQ=="
+        },
+        {
+            "title": "Software Engineer",
+            "company_name": "JPMC Candidate Experience page",
+            "location": "  Tampa, FL   ",
+            "via": "via JPMorgan Chase Login",
+            "description": "DESCRIPTION:\n\nDuties: Participate in planning session with project managers, business analysts and team members to analyze business requirements and lead the proposed IT solution to develop software applications. Lead design reviews and provide design recommendations, incorporating security requirements into design and provide input to information/data flows for software development. Ensure... adherence to IT Control Policies throughout design. Development and testing. Incorporate Corporate Architectural Standards into application design specifications, document the detailed application specifications, translate technical requirements into programmed application modules and develop and enhance software application modules. Conduct code reviews and ensure that all solutions are aligned to pre-defined architectural specifications. Identify and troubleshoot application programming-related issues and review and feedback to the final user documentation and mentor junior engineers. Work with test team ensuring the testing results correspond to business expectations. Support triaging activities and serve as a subject matter expert in the development of software. Telecommuting permitted up to 40% of the week.\n\nQUALIFICATIONS:\n\nMinimum education and experience required: Bachelor\u2019s degree in Electronic Engineering, Computer Engineering, or related field of study plus 7 years of experience in the job offered or as Software Engineer, Software Developer, It Consultant, or related occupation.\n\nSkills Required: Requires experience in the following: Java; Scala; Spark; Python; Terraform; Apache Spark; Mainframes; Web Services; JavaScript; HTML5; XML; JSON; SQL; PL 1; COBOL; JCL; REXX; SAS; Shell Scripts; GitLab CI and CD; GitOps; Amazon Web Services; EC2; EMR; S3; RDS; VPC; IAM; Athena; AWS Lambda; Redshift; Glue; Elastic Load Balancing; Auto Scaling; CloudWatch; SNS; SES; SQS; Route 53; and AWS Transfer Family and other services of the AWS family.\n\nJob Location: 10420 Highland Manor Drive, Tampa, FL 33610. Telecommuting permitted up to 40% of the week",
+            "job_highlights": [
+                {
+                    "title": "Qualifications",
+                    "items": [
+                        "Minimum education and experience required: Bachelor\u2019s degree in Electronic Engineering, Computer Engineering, or related field of study plus 7 years of experience in the job offered or as Software Engineer, Software Developer, It Consultant, or related occupation",
+                        "Skills Required: Requires experience in the following: Java; Scala; Spark; Python; Terraform; Apache Spark; Mainframes; Web Services; JavaScript; HTML5; XML; JSON; SQL; PL 1; COBOL; JCL; REXX; SAS; Shell Scripts; GitLab CI and CD; GitOps; Amazon Web Services; EC2; EMR; S3; RDS; VPC; IAM; Athena; AWS Lambda; Redshift; Glue; Elastic Load Balancing; Auto Scaling; CloudWatch; SNS; SES; SQS; Route 53; and AWS Transfer Family and other services of the AWS family"
+                    ]
+                },
+                {
+                    "title": "Responsibilities",
+                    "items": [
+                        "Duties: Participate in planning session with project managers, business analysts and team members to analyze business requirements and lead the proposed IT solution to develop software applications",
+                        "Lead design reviews and provide design recommendations, incorporating security requirements into design and provide input to information/data flows for software development",
+                        "Ensure adherence to IT Control Policies throughout design",
+                        "Development and testing",
+                        "Incorporate Corporate Architectural Standards into application design specifications, document the detailed application specifications, translate technical requirements into programmed application modules and develop and enhance software application modules",
+                        "Conduct code reviews and ensure that all solutions are aligned to pre-defined architectural specifications",
+                        "Identify and troubleshoot application programming-related issues and review and feedback to the final user documentation and mentor junior engineers",
+                        "Work with test team ensuring the testing results correspond to business expectations",
+                        "Support triaging activities and serve as a subject matter expert in the development of software"
+                    ]
+                }
+            ],
+            "related_links": [
+                {
+                    "link": "https://www.google.com/search?sca_esv=f057219ff9d50998&sca_upv=1&q=JPMC+Candidate+Experience+page&sa=X&ved=0ahUKEwjnvKuygdOCAxXzQjABHUueBR0QmJACCIMN",
+                    "text": "See web results for JPMC Candidate Experience page"
+                }
+            ],
+            "extensions": [
+                "6 days ago",
+                "Full-time"
+            ],
+            "detected_extensions": {
+                "posted_at": "6 days ago",
+                "schedule_type": "Full-time"
+            },
+            "job_id": "eyJqb2JfdGl0bGUiOiJTb2Z0d2FyZSBFbmdpbmVlciIsImh0aWRvY2lkIjoiQUZ0TGNhNVdlQVFUZHhUX0FBQUFBQT09IiwidXVsZSI6IncrQ0FJUUlDSUVVMkZ1SUVaeVlXNWphWE5qYnkxUFlXdHNZVzVrTFZOaGJpQktiM05sTEVOQkxFTmhiR2xtYjNKdWFXRXNWVzVwZEdWa0lGTjBZWFJsY3ciLCJmYyI6IkVxSUNDdUlCUVV4UGJuQlpWazFXV1RsclpDMTBaRkZRVERZeVpuaDJhMmxRWm00MGIydGtZVGhoTFZwTVowUlRaVkZ5VDFOV1FUazJVamhKV0doQlRHbG9lbWh2YlRac2NYQnNRM0pVZG5sRWEzaEhTME5qZW5OV1QybHFOMjFtTnpKb2N6Y3hlQzB3VjNsMU5USklVMWRHVFRCdVlubFZURTV4TVd4a2RtbFRNbFphWW5KcVkzRmhZbGM0YTBoR2Jrd3hVbWhwTmw4eE5YcGtPWEZ3UTJWSFZESk5ZV1JqU1ZOV2JYRmZSbUZRTmxSbVdFTlhRMUI1TTFkNVEweExaREZqVVVsTWVFRTFSVE15YVRnelpYVkZaWE4xT0dkaE1UTkpTalprVFhBNGVrZHNjM2RyWnhJWFExbDBZbHBoWlZWSlgwOUdkMkpyVUhrM2VWYzJRVVVhSWtGS2Qyc3RPR1pPWm1KWlNtUXdWWGQxTkhReVpWRmpVVWhLWm01Uk1qUlhhMmMiLCJmY3YiOiIzIiwiZmNfaWQiOiJmY18xMiIsImFwcGx5X2xpbmsiOnsidGl0bGUiOiJBcHBseSBvbiBKUE1vcmdhbiBDaGFzZSBMb2dpbiIsImxpbmsiOiJodHRwczovL2pwbWMuZmEub3JhY2xlY2xvdWQuY29tL2hjbVVJL0NhbmRpZGF0ZUV4cGVyaWVuY2UvZW4vc2l0ZXMvQ1hfMTAwMS9yZXF1aXNpdGlvbnMvcHJldmlldy8yMTA0NjgyMjA/dXRtX2NhbXBhaWduPWdvb2dsZV9qb2JzX2FwcGx5XHUwMDI2dXRtX3NvdXJjZT1nb29nbGVfam9ic19hcHBseVx1MDAyNnV0bV9tZWRpdW09b3JnYW5pYyJ9fQ=="
+        },
+        {
+            "title": "Software Engineer",
+            "company_name": "Epic",
+            "location": "  Tampa, FL   ",
+            "via": "via LinkedIn",
+            "description": "TL;DR\n\nHigh-impact software development jobs for smart people...\n\nCode that saves lives.\n\nAs a software developer at Epic, you\u2019ll write software that impacts the lives of 75% of Americans and 300 million patients around the world. Working in your own office, surrounded by thousands of high-caliber developers, you\u2019ll use modern development methodologies and employ user-centered design, analytics, and machine learning tools to drive innovation in healthcare. Using leading-edge technologies and languages like JS, TS, and C#, you\u2019ll invent better ways to reduce medical errors, streamline record sharing between hospitals, and provide the quality of care a patient deserves.\n\nWrite software for the most innovative health systems on the planet.\n\nThe top-ranked health systems in U.S. News and World Report are Epic customers. Our community includes major systems like the Mayo Clinic, Johns Hopkins, Cleveland Clinic, and Kaiser Permanente, as well as leading academic medical centers at the University of Wisconsin, University of Michigan, University of California, University of Texas, The Ohio State University, and many more.\n\nExperience our state-of-the-art campus, eat delicious food, and travel the world.\n\nWe don\u2019t believe in cubicles. (Well, we believe they exist, but\u2026) Our uniquely themed campus was designed to heighten your ability to get stuff done in your office, a conference room, or by the fireplace in a comfy chair. For lunch, visit King\u2019s Cross or Cassiopeia for a wide array of meal options, or go to one of our smaller, themed bistros, featuring wood-rotisserie, pan-Asian, and Latin-inspired cuisine. All meals are restaurant-quality but cost only a few dollars, and they\u2019re prepared by a team comprised of kitchen talent from restaurants around the country. And, after five years here, you\u2019ll earn a four-week sabbatical anywhere in the world. Staff have kayaked in Patagonia, attended a Beyonc\u00e9 concert in Ireland, built a library in Tanzania, and run a marathon in Antarctica.\n\nLive affordably in a city known for its rising tech talent.\n\nEpic is located just outside Madison, Wisconsin, which is the second fastest growing market for tech talent in the United States, home to the state capital, and the University of Wisconsin. Madison has received accolades for being the greenest city in America (NerdWallet), the best city for renters (SmartAsset), fittest city in America (Fitbit), and, for the gamers, is one of a handful of US cities to have a Killer Queen arcade game, located at Madison\u2019s first arcade bar.\n\nMore than just important work.\n\nWe offer comprehensive benefits to keep you healthy and happy as you grow in your life and career, and your merit-based compensation will reflect the impact your work has on the company and our customers. You'll also be eligible for annual raises and bonuses, as well as stock grants, which give you an even greater stake in the success of Epic and our customers. Epic is an Equal Opportunity employer. We seek diverse perspectives, backgrounds, and experiences in our mission to improve healthcare. Research has shown that job-seekers who are women, LGBTQ+, or members of the global majority are less likely to apply for roles they don't seem completely qualified for, so we encourage all who are interested to apply. Please see our full non-discrimination statement at https //careers.epic.com/EEO.\n\u2022 Relocation to Madison, WI area (reimbursed)\n\u2022 BS/BA or greater in Computer Science, Mathematics, Software Engineering, Computer Engineering, or a related field\n\u2022 A history of academic excellence or professional success\n\u2022 Eligible to work in the United States without visa sponsorship (persons with appropriate qualifications and eligible for TN status under NAFTA may apply)\n\u2022 COVID-19 vaccination",
+            "job_highlights": [
+                {
+                    "title": "Qualifications",
+                    "items": [
+                        "BS/BA or greater in Computer Science, Mathematics, Software Engineering, Computer Engineering, or a related field",
+                        "A history of academic excellence or professional success",
+                        "Eligible to work in the United States without visa sponsorship (persons with appropriate qualifications and eligible for TN status under NAFTA may apply)"
+                    ]
+                },
+                {
+                    "title": "Benefits",
+                    "items": [
+                        "And, after five years here, you\u2019ll earn a four-week sabbatical anywhere in the world",
+                        "We offer comprehensive benefits to keep you healthy and happy as you grow in your life and career, and your merit-based compensation will reflect the impact your work has on the company and our customers",
+                        "You'll also be eligible for annual raises and bonuses, as well as stock grants, which give you an even greater stake in the success of Epic and our customers"
+                    ]
+                }
+            ],
+            "related_links": [
+                {
+                    "link": "http://www.epic.com/",
+                    "text": "epic.com"
+                },
+                {
+                    "link": "https://www.google.com/search?sca_esv=f057219ff9d50998&sca_upv=1&q=Epic&sa=X&ved=0ahUKEwjnvKuygdOCAxXzQjABHUueBR0QmJACCMQN",
+                    "text": "See web results for Epic"
+                }
+            ],
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2ExSlYLFQqN0410cCjiC2e8zo_EvEphZA0ONp_Ig&s",
+            "extensions": [
+                "16 days ago",
+                "Full-time",
+                "Health insurance"
+            ],
+            "detected_extensions": {
+                "posted_at": "16 days ago",
+                "schedule_type": "Full-time"
+            },
+            "job_id": "eyJqb2JfdGl0bGUiOiJTb2Z0d2FyZSBFbmdpbmVlciIsImh0aWRvY2lkIjoiVXA3dzc3MmZKUW5VTXhQM0FBQUFBQT09IiwidXVsZSI6IncrQ0FJUUlDSUVVMkZ1SUVaeVlXNWphWE5qYnkxUFlXdHNZVzVrTFZOaGJpQktiM05sTEVOQkxFTmhiR2xtYjNKdWFXRXNWVzVwZEdWa0lGTjBZWFJsY3ciLCJmYyI6IkVvd0NDc3dCUVV4UGJuQlpWMmRCY1daS1NUVlRabWcwY1RKbmNIaDFkRTlLWVVob1dDMXlVWEJXZEdKMFkwcFpaMkpQWVcxV09FVXlhR1pYUm1GdFJIQlVURkY2VDIxSlZUTk5UeTFUVkZWWk1FbGxSRkF4VkVkc2RGSlNObmw2ZVd4MWRsSjBaemhzV2xOeE5HMVZUVmxITTNCUVVYaExOMVZNYm5VNFVFTk9WVlZUYUZSSVptOXZWVEJOWVV0eVYxbEJZMDlVZFVGT01TMWlORkF5VVUxWVlUaDNOMmRTTkZKT1ZsUnBXRkpaWmpjelptTlNTbE5sYlROak9IRnllV2R4U0RaYWJHcExWa3hzZDBwTFJWQXRFaGREV1hSaVdtRmxWVWxmVDBaM1ltdFFlVGQ1VnpaQlJSb2lRVXAzYXkwNFpsbFRORkZIYUdwbFNqRnRYMVpZUlhkNVN6UkNabVY0YjNsVFVRIiwiZmN2IjoiMyIsImZjX2lkIjoiZmNfMTMiLCJhcHBseV9saW5rIjp7InRpdGxlIjoiQXBwbHkgb24gTGlua2VkSW4iLCJsaW5rIjoiaHR0cHM6Ly93d3cubGlua2VkaW4uY29tL2pvYnMvdmlldy9zb2Z0d2FyZS1lbmdpbmVlci1hdC1lcGljLTM2Mjg1OTAzNjU/dXRtX2NhbXBhaWduPWdvb2dsZV9qb2JzX2FwcGx5XHUwMDI2dXRtX3NvdXJjZT1nb29nbGVfam9ic19hcHBseVx1MDAyNnV0bV9tZWRpdW09b3JnYW5pYyJ9fQ=="
+        },
+        {
+            "title": "Software Engineer I (Java)",
+            "company_name": "Penske",
+            "location": "  Tampa, FL   ",
+            "via": "via Penske Careers",
+            "description": "Summary Statement:\n\nWorking with a diverse team, you will play an integral role in designing, developing, and supporting our business critical applications, while mentoring associate engineers on software development best practices in an effort to deliver our next generation of innovative applications to our customers...\n\nWhat You Will Be Doing:\n\nAs a Software Engineer I, you will participate in all aspects of the Software Development lifecycle by supporting existing software development efforts and troubleshooting issues as they occur while also developing new software modules across multiple small to medium projects concurrently. You will have an opportunity to lead the design of certain software components and suggest new products, applications and features based on industry and technological trends and advances. You will also consult with process owners in reviewing, interpreting & developing systems in accordance with user requirements. Finally, you will get an opportunity to work with a diverse team and mentor junior software engineers.\n\nPenske Responsibilities:\n\n\u2022 Be the primary contact and lead support associate for multiple applications.\n\n\u2022 Play a critical role in supporting the application lifecycle (design, develop, test, release and support) based on detailed requirements and guidance from senior engineers/leads.\n\n\u2022 Collaborate with technical/business leaders and product owners to acquire and understand requirements / acceptance criteria.\n\n\u2022 Develop, maintain, test, analyze performance, troubleshoot / fix applications and applicable code\n\n\u2022 Support mission critical applications and assist in the resolution of customer issues.\n\n\u2022 Design backend database schemas.\n\n\u2022 Produce deliverables with clean, well-documented and easily maintainable code that adheres to defined coding standards.\n\n\u2022 Write unit / UI tests to identify defects and leverage CI/CD for building and deploying code.\n\n\u2022 Triage production issues and work with multiple teams to perform problem analysis\n\n\u2022 Assign and review tasks from junior and offshore software engineers.\n\n\u2022 Participate in conducting new hire interviews.\n\n\u2022 Influence the discovery and decision-making process when changes to standards and technology are required (tools, conventions and design patterns)\n\n\u2022 Provides support to the business by responding to user questions, concerns, and issues (for example, technical feasibility, implementation strategies)\n\n\u2022 Other projects as assigned\n\nPenske Qualifications:\n\n\u2022 Bachelor\u2019s Degree in Computer Science/Computer Engineering or equivalent years of software development experience\n\n\u2022 5-7 years experience of appropriate programming languages dependent on the role(Java, RPG, etc)\n\n\u2022 Full stack development experience in technologies such as React, Angular, jQuery, HTML, JavaScript, CSS, Spring framework, Spring-MVC, myBatis, RESTful API\u2019s.\n\n\u2022 Knowledge of technical project management\n\n\u2022 Knowledge of appropriate design frameworks and patterns and experience in implementing them in software development.\n\n\u2022 Knowledge of industry wide technology strategies and best practices.\n\n\u2022 Experience in relational database design.\n\n\u2022 Knowledge and experience of the Agile software development methodology.\n\n\u2022 Ability to troubleshoot and resolve issues\n\n\u2022 Ability to research emerging software development frameworks and tools\n\n\u2022 Ability to estimate and medium to large sized projects.\n\n\u2022 Excellent communication and interpersonal skills\n\n\u2022 Knowledge of full software development lifecycle\n\n\u2022 Some background in DevOps Tools and automation\n\n\u2022 Regular, predictable, full attendance is an essential function of the job\n\n\u2022 Willingness to travel as necessary, work the required schedule, work at the specific location required, complete Penske employment application, submit to a background investigation (to include past employment, education, and criminal history) and drug screening are required.\n\nPhysical Requirements:\n\n-The physical and mental demands described here are representative of those that must be met by an associate to successfully perform the essential functions of this job. Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions.\n\n-The associate will be required to: read; communicate verbally and/or in written form; remember and analyze certain information; and remember and understand certain instructions or guidelines.\n\n-While performing the duties of this job, the associate may be required to stand, walk, and sit. The associate is frequently required to use hands to touch, handle, and feel, and to reach with hands and arms. The associate must be able to occasionally lift and/or move up to 25lbs/12kg.\n\n-Specific vision abilities required by this job include close vision, distance vision, peripheral vision, depth perception and the ability to adjust focus.\n\nPenske is an Equal Opportunity Employer.\n\nAbout Penske Truck Leasing\n\nPenske Truck Leasing Co., L.P., headquartered in Reading, Pennsylvania, is a partnership of Penske Corporation, Penske Automotive Group and Mitsui & Co., Ltd. A leading global transportation services provider, Penske operates a premier fleet of vehicles and serves its customers from locations in North America, South America, Europe, Australia, and Asia. Penske\u2019s product lines include full-service truck leasing, contract maintenance, commercial and consumer truck rentals, used truck sales, transportation and warehousing management and supply chain management solutions. Visit www.GoPenske.com to learn more.\n\nJob Category: Information Technology\n\nJob Function: Software Engineering\n\nJob Family: Information Technology\n\nAddress: 5401 West Kennedy Blvd Suite 700\n\nPrimary Location: US-FL-Tampa\n\nEmployer: Penske Truck Leasing Co., L.P.\n\nReq ID: 2325490",
+            "job_highlights": [
+                {
+                    "title": "Qualifications",
+                    "items": [
+                        "Bachelor\u2019s Degree in Computer Science/Computer Engineering or equivalent years of software development experience",
+                        "5-7 years experience of appropriate programming languages dependent on the role(Java, RPG, etc)",
+                        "Full stack development experience in technologies such as React, Angular, jQuery, HTML, JavaScript, CSS, Spring framework, Spring-MVC, myBatis, RESTful API\u2019s",
+                        "Knowledge of technical project management",
+                        "Knowledge of appropriate design frameworks and patterns and experience in implementing them in software development",
+                        "Knowledge of industry wide technology strategies and best practices",
+                        "Experience in relational database design",
+                        "Knowledge and experience of the Agile software development methodology",
+                        "Ability to troubleshoot and resolve issues",
+                        "Ability to research emerging software development frameworks and tools",
+                        "Ability to estimate and medium to large sized projects",
+                        "Excellent communication and interpersonal skills",
+                        "Knowledge of full software development lifecycle",
+                        "Some background in DevOps Tools and automation",
+                        "Regular, predictable, full attendance is an essential function of the job",
+                        "Willingness to travel as necessary, work the required schedule, work at the specific location required, complete Penske employment application, submit to a background investigation (to include past employment, education, and criminal history) and drug screening are required",
+                        "The physical and mental demands described here are representative of those that must be met by an associate to successfully perform the essential functions of this job",
+                        "The associate will be required to: read; communicate verbally and/or in written form; remember and analyze certain information; and remember and understand certain instructions or guidelines",
+                        "The associate is frequently required to use hands to touch, handle, and feel, and to reach with hands and arms",
+                        "The associate must be able to occasionally lift and/or move up to 25lbs/12kg",
+                        "Specific vision abilities required by this job include close vision, distance vision, peripheral vision, depth perception and the ability to adjust focus"
+                    ]
+                },
+                {
+                    "title": "Responsibilities",
+                    "items": [
+                        "Working with a diverse team, you will play an integral role in designing, developing, and supporting our business critical applications, while mentoring associate engineers on software development best practices in an effort to deliver our next generation of innovative applications to our customers",
+                        "As a Software Engineer I, you will participate in all aspects of the Software Development lifecycle by supporting existing software development efforts and troubleshooting issues as they occur while also developing new software modules across multiple small to medium projects concurrently",
+                        "You will have an opportunity to lead the design of certain software components and suggest new products, applications and features based on industry and technological trends and advances",
+                        "You will also consult with process owners in reviewing, interpreting & developing systems in accordance with user requirements",
+                        "Be the primary contact and lead support associate for multiple applications",
+                        "Play a critical role in supporting the application lifecycle (design, develop, test, release and support) based on detailed requirements and guidance from senior engineers/leads",
+                        "Collaborate with technical/business leaders and product owners to acquire and understand requirements / acceptance criteria",
+                        "Develop, maintain, test, analyze performance, troubleshoot / fix applications and applicable code",
+                        "Support mission critical applications and assist in the resolution of customer issues",
+                        "Design backend database schemas",
+                        "Produce deliverables with clean, well-documented and easily maintainable code that adheres to defined coding standards",
+                        "Write unit / UI tests to identify defects and leverage CI/CD for building and deploying code",
+                        "Triage production issues and work with multiple teams to perform problem analysis",
+                        "Assign and review tasks from junior and offshore software engineers",
+                        "Participate in conducting new hire interviews",
+                        "Influence the discovery and decision-making process when changes to standards and technology are required (tools, conventions and design patterns)",
+                        "Provides support to the business by responding to user questions, concerns, and issues (for example, technical feasibility, implementation strategies)",
+                        "Other projects as assigned",
+                        "Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions"
+                    ]
+                }
+            ],
+            "related_links": [
+                {
+                    "link": "http://www.pensketruckleasing.com/",
+                    "text": "pensketruckleasing.com"
+                },
+                {
+                    "link": "https://www.google.com/search?sca_esv=f057219ff9d50998&sca_upv=1&q=Penske&sa=X&ved=0ahUKEwjnvKuygdOCAxXzQjABHUueBR0QmJACCI0O",
+                    "text": "See web results for Penske"
+                }
+            ],
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlk6qt8kCFwd7QYWUl9LYPMyWJ97qqboAfeX7kku0&s",
+            "extensions": [
+                "Full-time"
+            ],
+            "detected_extensions": {
+                "schedule_type": "Full-time"
+            },
+            "job_id": "eyJqb2JfdGl0bGUiOiJTb2Z0d2FyZSBFbmdpbmVlciBJIChKYXZhKSIsImh0aWRvY2lkIjoiUlpROV9fNFU4VmdscGtLYUFBQUFBQT09IiwidXVsZSI6IncrQ0FJUUlDSUVVMkZ1SUVaeVlXNWphWE5qYnkxUFlXdHNZVzVrTFZOaGJpQktiM05sTEVOQkxFTmhiR2xtYjNKdWFXRXNWVzVwZEdWa0lGTjBZWFJsY3ciLCJmYyI6IkVxSUNDdUlCUVV4UGJuQlpWamN4Um1jNFozSnhSRWhpT1MxUFIxb3hZbTExTlROT1oydG9RalYzY1dGRlZVazVUVGQ1YlVaa1l6Sm5WM1J1YUhGVldVNWhibkJXVjNsbWFuSjFTVVZyYzFBM1EzSmFTV2c1YWxjelFYaEtZVVpXZDJKYWExTm5Tbmw1VDBKUFRteDBjMGRTYkV0M1JUSnJhMkpyWW1odFZYazVWR1YxVDJoNlNtVmpkbEF0WDFjdGNFcERUbkJHY0c1b1preENhM0l0UzJwbk9HeHJWWGhZU0RaYVdIZGxWMXB6ZFRkallVNVpjaTF5Y1RsS09HTk1SbGxrU1VGSloyVnpiV04yV25KVVdUQnZTREE0VG5GcWVWOXJOVzVtTUdoa1lYVmZNV3hYWnhJWFExbDBZbHBoWlZWSlgwOUdkMkpyVUhrM2VWYzJRVVVhSWtGS2Qyc3RPR055WlVkZk4yMVpSMUYyYUhKWlRTMWhPRzF4YVUwMWRXOU1RbmMiLCJmY3YiOiIzIiwiZmNfaWQiOiJmY18xNSIsImFwcGx5X2xpbmsiOnsidGl0bGUiOiJBcHBseSBvbiBQZW5za2UgQ2FyZWVycyIsImxpbmsiOiJodHRwczovL3BlbnNrZS5qb2JzL3RhbXBhLWZsL3NvZnR3YXJlLWVuZ2luZWVyLWktamF2YS84M0M3RTY4Qzk4QzA0MUU1OTVBQzM5QTYzMTQ5QzNGNC9qb2IvP3V0bV9jYW1wYWlnbj1nb29nbGVfam9ic19hcHBseVx1MDAyNnV0bV9zb3VyY2U9Z29vZ2xlX2pvYnNfYXBwbHlcdTAwMjZ1dG1fbWVkaXVtPW9yZ2FuaWMifX0="
+        },
+        {
+            "title": "Software Engineer Senior",
+            "company_name": "FIS Global",
+            "location": "  St. Petersburg, FL   (+3 others)   ",
+            "via": "via FIS Global",
+            "description": "Position Type :\nFull time\n...\nType Of Hire :\nExperienced (relevant combo of work and education)\n\nEducation Desired :\nBachelor of Computer Engineering\n\nTravel Percentage :\n0%\n\nJob Description\n\nWe are FIS. Our technology powers the world\u2019s economy and our teams bring innovation to life. We champion diversity to deliver the best products and solutions for our colleagues, clients and communities. If you\u2019re ready to start learning, growing and making an impact with a career in fintech, we\u2019d like to know: Are you FIS?\n\nAbout the role:\nAs a RPG Software Engineer you build innovative fintech products that change the way the world pays, banks and invests. This will involve developing software applications, identifying client requirements and technical specifications, interacting with engineering groups and training clients on applications.\n\nAbout the team:\n\nA newly formed HORIZON EFT team.\n\nThe Software Engineer will bring valuable technical skills and perspectives to the team.\n\nWhat you will be doing:\n\u2022Code programs using all forms of RPGLE including free form and embedded SQL RPGLE, CLLE, DDL and DDS.\n\n\u2022 Designing, programming, debugging and modifying software enhancements.\n\u2022 Interacting with product managers and users to define requirements and modifications.\n\u2022 Participating in software design meetings to determine technical requirements.\n\u2022 Working with internal Client Training, Client Relationship and Sales teams.\n\nWhat you will need:\n\u2022 Experience with end-to-end systems development life cycles and standards.\n\u2022 Knowledge of financial industry practices, regulations and operations.\n\u2022 Fluency in sequence diagrams, class models, etc.\n\u2022 Proficiency in solutions design and requirements definition disciplines.\n\u2022 A bachelor\u2019s in computer engineering, computer science or other related discipline or equivalent experience.\n\n\u2022 Knowledge of ISO 8583 interchange message specification or Payment Processing experience\n\n\u2022 EFT simulator tool experience\n\nWhat we offer you:\nA career at FIS is more than just a job. It\u2019s the change to shape the future of fintech. At FIS, we offer you:\n\n\u2022 A voice in the future of fintech\n\u2022 Always-on learning and development\n\u2022 Collaborative work environment\n\u2022 Opportunities to give back\n\u2022 Competitive salary and benefits\n\n.\n\nPrivacy Statement\n\nFIS is committed to protecting the privacy and security of all personal information that we process in order to provide services to our clients. For specific information on how FIS protects personal information online, please see the Online Privacy Notice.\n\nEEOC Statement\n\nFIS is an equal opportunity employer. We evaluate qualified applicants without regard to race, color, religion, sex, sexual orientation, gender identity, marital status, genetic information, national origin, disability, veteran status, and other protected characteristics. The EEO is the Law poster is available here supplement document available here\n\nFor positions located in the US, the following conditions apply. If you are made a conditional offer of employment, you will be required to undergo a drug test. ADA Disclaimer: In developing this job description care was taken to include all competencies needed to successfully perform in this position. However, for Americans with Disabilities Act (ADA) purposes, the essential functions of the job may or may not have been described for purposes of ADA reasonable accommodation. All reasonable accommodation requests will be reviewed and evaluated on a case-by-case basis.\n\nSourcing Model\n\nRecruitment at FIS works primarily on a direct sourcing model; a relatively small portion of our hiring is through recruitment agencies. FIS does not accept resumes from recruitment agencies which are not on the preferred supplier list and is not responsible for any related fees for resumes submitted to job postings, our employees, or any other part of our company.\n\n#pridepass",
+            "job_highlights": [
+                {
+                    "title": "Qualifications",
+                    "items": [
+                        "Experienced (relevant combo of work and education)",
+                        "Experience with end-to-end systems development life cycles and standards",
+                        "Knowledge of financial industry practices, regulations and operations",
+                        "Fluency in sequence diagrams, class models, etc",
+                        "Proficiency in solutions design and requirements definition disciplines",
+                        "A bachelor\u2019s in computer engineering, computer science or other related discipline or equivalent experience",
+                        "Knowledge of ISO 8583 interchange message specification or Payment Processing experience",
+                        "EFT simulator tool experience"
+                    ]
+                },
+                {
+                    "title": "Responsibilities",
+                    "items": [
+                        "As a RPG Software Engineer you build innovative fintech products that change the way the world pays, banks and invests",
+                        "This will involve developing software applications, identifying client requirements and technical specifications, interacting with engineering groups and training clients on applications",
+                        "The Software Engineer will bring valuable technical skills and perspectives to the team",
+                        "Code programs using all forms of RPGLE including free form and embedded SQL RPGLE, CLLE, DDL and DDS",
+                        "Designing, programming, debugging and modifying software enhancements",
+                        "Interacting with product managers and users to define requirements and modifications",
+                        "Participating in software design meetings to determine technical requirements",
+                        "Working with internal Client Training, Client Relationship and Sales teams"
+                    ]
+                },
+                {
+                    "title": "Benefits",
+                    "items": [
+                        "A voice in the future of fintech",
+                        "Always-on learning and development",
+                        "Collaborative work environment",
+                        "Opportunities to give back",
+                        "Competitive salary and benefits"
+                    ]
+                }
+            ],
+            "related_links": [
+                {
+                    "link": "http://www.fisglobal.com/",
+                    "text": "fisglobal.com"
+                },
+                {
+                    "link": "https://www.google.com/search?sca_esv=f057219ff9d50998&sca_upv=1&q=FIS+Global&sa=X&ved=0ahUKEwjnvKuygdOCAxXzQjABHUueBR0QmJACCNoO",
+                    "text": "See web results for FIS Global"
+                }
+            ],
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlvt4C7NVdE5MwUimX_WkpDpoZoy_nCT5mqKiPZjc&s",
+            "extensions": [
+                "18 days ago",
+                "Full-time"
+            ],
+            "detected_extensions": {
+                "posted_at": "18 days ago",
+                "schedule_type": "Full-time"
+            },
+            "job_id": "eyJqb2JfdGl0bGUiOiJTb2Z0d2FyZSBFbmdpbmVlciBTZW5pb3IiLCJodGlkb2NpZCI6Im1STVliY1oxWTFkRFFWQ2FBQUFBQUE9PSIsInV1bGUiOiJ3K0NBSVFJQ0lFVTJGdUlFWnlZVzVqYVhOamJ5MVBZV3RzWVc1a0xWTmhiaUJLYjNObExFTkJMRU5oYkdsbWIzSnVhV0VzVlc1cGRHVmtJRk4wWVhSbGN3IiwiZmMiOiJFcUlDQ3VJQlFVeFBibkJaVlhaaWExaE1iMmQxTjAxRVR6a3lNMXBsV2t3MGVIaFRObTR4TFZKa01rNWxNV3RYV2pJeFNEaDFaVzFQVFVoYVdHUnNUUzFOYzNWdWRUZEhORzQxVDJNeGQzWXlVMjl5Vm5kelVVOVhVekpNWWs5bVVUaGtiUzF1VkVwZldWOUxNMmRSWjBWSVNWVlNlalY1U1VGblQwVXdRbTkxWlVwdWIxQktjVEkzVkhwVU1XcEhkRjgzT0RONmJtNW5OSHA0YUdseE9VdG1VMFJVWTBodFIyeHNhbWQ1YW1WalZrZHJOSGhJUlhCek5sQnZiMlU1VHpKTkxVbDNXa0pDZDJ4Nk5UUk9iV0Z3TW1oQ2FHa3RNV2szZWtkR05HeHVia2M0ZW1nd2R4SVhRMWwwWWxwaFpWVkpYMDlHZDJKclVIazNlVmMyUVVVYUlrRktkMnN0T0daSE5UZ3lWekpGWTJvMWFXaE1jMFJJVFRoa2JGVk1WbUZGUkVFIiwiZmN2IjoiMyIsImZjX2lkIjoiZmNfMTciLCJhcHBseV9saW5rIjp7InRpdGxlIjoiQXBwbHkgb24gRklTIEdsb2JhbCIsImxpbmsiOiJodHRwczovL2NhcmVlcnMuZmlzZ2xvYmFsLmNvbS91cy9lbi9qb2IvRklHTFVTSlIwMjU4OTMyRVhURVJOQUwvU29mdHdhcmUtRW5naW5lZXItU2VuaW9yP3V0bV9jYW1wYWlnbj1nb29nbGVfam9ic19hcHBseVx1MDAyNnV0bV9zb3VyY2U9Z29vZ2xlX2pvYnNfYXBwbHlcdTAwMjZ1dG1fbWVkaXVtPW9yZ2FuaWMifX0="
+        }
+    ],
+    "chips": [
+        {
+            "type": "Title",
+            "param": "job_family_1",
+            "options": [
+                {
+                    "text": "All"
+                },
+                {
+                    "text": "Software engineer",
+                    "value": "software engineer"
+                },
+                {
+                    "text": "Engineer",
+                    "value": "engineer"
+                },
+                {
+                    "text": "Engineer senior",
+                    "value": "engineer senior"
+                },
+                {
+                    "text": "Engineering manager",
+                    "value": "engineering manager"
+                },
+                {
+                    "text": "Software engineering",
+                    "value": "software engineering"
+                },
+                {
+                    "text": "Development engineer",
+                    "value": "development engineer"
+                },
+                {
+                    "text": "Senior",
+                    "value": "senior"
+                },
+                {
+                    "text": "Advisory",
+                    "value": "advisory"
+                },
+                {
+                    "text": "Field service",
+                    "value": "field service"
+                },
+                {
+                    "text": "Interns",
+                    "value": "interns"
+                },
+                {
+                    "text": "Internships",
+                    "value": "internships"
+                },
+                {
+                    "text": "Java engineer",
+                    "value": "java engineer"
+                },
+                {
+                    "text": "Management systems",
+                    "value": "management systems"
+                },
+                {
+                    "text": "Senior engineer",
+                    "value": "senior engineer"
+                },
+                {
+                    "text": "Specialist",
+                    "value": "specialist"
+                },
+                {
+                    "text": "System administrator",
+                    "value": "system administrator"
+                },
+                {
+                    "text": "Systems engineer",
+                    "value": "systems engineer"
+                },
+                {
+                    "text": "Transportation",
+                    "value": "transportation"
+                }
+            ]
+        },
+        {
+            "type": "Location",
+            "param": "city",
+            "options": [
+                {
+                    "text": "All"
+                },
+                {
+                    "text": "Orlando, FL",
+                    "value": "d7zN_thz54iev6U8BrLDCg=="
+                },
+                {
+                    "text": "Tampa, FL",
+                    "value": "4dG5s4K3wohjtJaviRNfpw=="
+                },
+                {
+                    "text": "Miami, FL",
+                    "value": "EcHIDqKw2YhlT63dcfKW_w=="
+                },
+                {
+                    "text": "Jacksonville, FL",
+                    "value": "66_O8Ra35Yjix_yWOH3NxA=="
+                },
+                {
+                    "text": "Fort Lauderdale, FL",
+                    "value": "9cr6ICcB2Yi-jr9Adb4Cdg=="
+                },
+                {
+                    "text": "Cape Canaveral, FL",
+                    "value": "m0xQOaul4Iie0VV69bALuw=="
+                },
+                {
+                    "text": "Kennedy Space Center, FL",
+                    "value": "WZPaH_Ww4IgAyGRkBvgerQ=="
+                },
+                {
+                    "text": "Lakeland, FL",
+                    "value": "BwAP37I43YgI1aK4DzLRKQ=="
+                },
+                {
+                    "text": "Melbourne, FL",
+                    "value": "TZlxRywO3oio0gypVLLNiw=="
+                },
+                {
+                    "text": "Tallahassee, FL",
+                    "value": "U0sSh1GK7Ij4sf3Uegfu6w=="
+                },
+                {
+                    "text": "Boca Raton, FL",
+                    "value": "J_s278Ij2YjJlWDK7qY-0g=="
+                },
+                {
+                    "text": "St. Petersburg, FL",
+                    "value": "Qao6aWPmwoj_i9S8A0DMBA=="
+                },
+                {
+                    "text": "Lake Mary, FL",
+                    "value": "sdb-KVFt54jLzyXzYNlsGg=="
+                },
+                {
+                    "text": "Palm Bay, FL",
+                    "value": "N7jtdDQN3ohOhC1NKoNWsg=="
+                },
+                {
+                    "text": "Coral Springs, FL",
+                    "value": "ZeB2GTQF2YgrICmRtbAHiQ=="
+                },
+                {
+                    "text": "Kissimmee, FL",
+                    "value": "5wsVNxqE3YgNwv0Rl83nlA=="
+                },
+                {
+                    "text": "Oviedo, FL",
+                    "value": "N65FJo9p54jA9p-khgiE6A=="
+                },
+                {
+                    "text": "Panama City, FL",
+                    "value": "QWPGKlaBk4jzAUcs1V5Yvw=="
+                },
+                {
+                    "text": "Sunrise, FL",
+                    "value": "QZ3rCDao2YiZ-7ZDLhz1JA=="
+                },
+                {
+                    "text": "Titusville, FL",
+                    "value": "J1g0uNJM54iOoRPoygUsow=="
+                },
+                {
+                    "text": "Apopka, FL",
+                    "value": "GXwVzDl354iI6ID8jw8d1w=="
+                },
+                {
+                    "text": "Cocoa Beach, FL",
+                    "value": "OWRIU8Ic3ojGcrTaDBfYpQ=="
+                },
+                {
+                    "text": "Florida City, FL",
+                    "value": "Oc-oNcvg2Yggg5H-0Oq99w=="
+                },
+                {
+                    "text": "Gainesville, FL",
+                    "value": "Kyy_aSEg5oiWjRAoXXnngA=="
+                },
+                {
+                    "text": "Jupiter, FL",
+                    "value": "fW8aRDUz2Yghmon_b0hR3A=="
+                },
+                {
+                    "text": "Largo, FL",
+                    "value": "Ww5jgqbxwohFXcVipi6_YQ=="
+                },
+                {
+                    "text": "Miami Gardens, FL",
+                    "value": "Zy-MgLuv2YjVa-LliNiZ7Q=="
+                },
+                {
+                    "text": "Naples, FL",
+                    "value": "rdfCc5vh2oiqmizXGFM_Zw=="
+                },
+                {
+                    "text": "Plantation, FL",
+                    "value": "wxO77w8H2YgWec2NjYJ3XQ=="
+                },
+                {
+                    "text": "Sarasota, FL",
+                    "value": "K8KyneY3w4jZFVcdHTQ14w=="
+                },
+                {
+                    "text": "South Venice, FL",
+                    "value": "-8V60oRZw4gvR5y_Cbx7mw=="
+                },
+                {
+                    "text": "West Palm Beach, FL",
+                    "value": "wa2VtczV2Ijea-EftcfvFQ=="
+                },
+                {
+                    "text": "Cape Coral, FL",
+                    "value": "9RaA56dE24jyb5s6FqTRrw=="
+                },
+                {
+                    "text": "Celebration, FL",
+                    "value": "swGnatF43YjVh6BOsUG1eg=="
+                },
+                {
+                    "text": "Clearwater, FL",
+                    "value": "Gbt04v3xwoj7kjzS0d-pdQ=="
+                },
+                {
+                    "text": "Davenport, FL",
+                    "value": "7WLP2TJx3YisU3wkYQA17A=="
+                },
+                {
+                    "text": "Davie, FL",
+                    "value": "HXugCuKn2Yj8sZJorMiy5w=="
+                },
+                {
+                    "text": "Daytona Beach, FL",
+                    "value": "g1YCJZTb5ojrKssdtztqNg=="
+                },
+                {
+                    "text": "Deerfield Beach, FL",
+                    "value": "b_tKPZDi2IgXZjW_KiuY5Q=="
+                },
+                {
+                    "text": "Delray Beach, FL",
+                    "value": "42rskPzf2Ii4uG5TKAF4xw=="
+                },
+                {
+                    "text": "Douglas, GA",
+                    "value": "JfI921Qq8Ih6Ghnl13wXdA=="
+                },
+                {
+                    "text": "Juno Beach, FL",
+                    "value": "25mwVVIq34hDI2f6qSKz2A=="
+                },
+                {
+                    "text": "Lake Worth Beach, FL",
+                    "value": "FUW_ljPY2Ih7x6izREtJhw=="
+                },
+                {
+                    "text": "Maitland, FL",
+                    "value": "LXb8gUtw54gRZeHizdGFvg=="
+                },
+                {
+                    "text": "North Palm Beach, FL",
+                    "value": "QfLYRCvV2Ij60JQVW0I9Fw=="
+                },
+                {
+                    "text": "Palm Beach Gardens, FL",
+                    "value": "pRdHOMzT3ohhwiWpMjqMZg=="
+                },
+                {
+                    "text": "Palm Harbor, FL",
+                    "value": "DVfmB9Pxwoj89VqbHzuZQA=="
+                },
+                {
+                    "text": "Patrick Space Force Base, FL",
+                    "value": "LQdj6UUb3ogdVZLTcatu0w=="
+                },
+                {
+                    "text": "Riverview, FL",
+                    "value": "NdhCcXDRwoiolc7PPsCvnw=="
+                },
+                {
+                    "text": "Riviera Beach, FL",
+                    "value": "A7u4Xg3V2IhwzmQt_N0HBw=="
+                },
+                {
+                    "text": "Sanford, FL",
+                    "value": "94gj7A0T54hMVYCWTn4xww=="
+                },
+                {
+                    "text": "Spain, GA",
+                    "value": "B__rbQ957oinxn-1nsHh6w=="
+                },
+                {
+                    "text": "Temple Terrace, FL",
+                    "value": "bXrkGlTGwohgIxRgvSKTMg=="
+                }
+            ]
+        },
+        {
+            "type": "Date posted",
+            "param": "date_posted",
+            "options": [
+                {
+                    "text": "All"
+                },
+                {
+                    "text": "Past day",
+                    "value": "today"
+                },
+                {
+                    "text": "Past 3 days",
+                    "value": "3days"
+                },
+                {
+                    "text": "Past week",
+                    "value": "week"
+                },
+                {
+                    "text": "Past month",
+                    "value": "month"
+                }
+            ]
+        },
+        {
+            "type": "Requirements",
+            "param": "requirements",
+            "options": [
+                {
+                    "text": "All"
+                },
+                {
+                    "text": "No degree",
+                    "value": "no_degree"
+                },
+                {
+                    "text": "No experience",
+                    "value": "no_experience"
+                },
+                {
+                    "text": "Under 3 years of experience",
+                    "value": "years3under"
+                },
+                {
+                    "text": "3+ years of experience",
+                    "value": "years3plus"
+                }
+            ]
+        },
+        {
+            "type": "Type",
+            "param": "employment_type",
+            "options": [
+                {
+                    "text": "All"
+                },
+                {
+                    "text": "Full-time",
+                    "value": "FULLTIME"
+                },
+                {
+                    "text": "Contractor",
+                    "value": "CONTRACTOR"
+                },
+                {
+                    "text": "Part-time",
+                    "value": "PARTTIME"
+                },
+                {
+                    "text": "Internship",
+                    "value": "INTERN"
+                }
+            ]
+        },
+        {
+            "type": "Company type",
+            "param": "industry.id",
+            "options": [
+                {
+                    "text": "All"
+                },
+                {
+                    "text": "Manufacturing",
+                    "value": "/business/naics2007/31"
+                },
+                {
+                    "text": "Information",
+                    "value": "/business/naics2007/51"
+                },
+                {
+                    "text": "Finance",
+                    "value": "/business/naics2007/52"
+                },
+                {
+                    "text": "Computer Services",
+                    "value": "/business/naics2007/5415"
+                },
+                {
+                    "text": "Consulting",
+                    "value": "/business/naics2007/5416"
+                },
+                {
+                    "text": "Engineering Services",
+                    "value": "/business/naics2007/5413"
+                },
+                {
+                    "text": "Retail",
+                    "value": "/business/naics2007/44"
+                },
+                {
+                    "text": "Construction",
+                    "value": "/business/naics2007/23"
+                },
+                {
+                    "text": "Staffing",
+                    "value": "/business/naics2007/5613"
+                },
+                {
+                    "text": "Entertainment",
+                    "value": "/business/naics2007/71"
+                },
+                {
+                    "text": "Repair",
+                    "value": "/business/naics2007/811"
+                },
+                {
+                    "text": "Utilities",
+                    "value": "/business/naics2007/22"
+                },
+                {
+                    "text": "Education",
+                    "value": "/business/naics2007/61"
+                },
+                {
+                    "text": "Travel",
+                    "value": "/business/naics2007/5615"
+                },
+                {
+                    "text": "Logistics",
+                    "value": "/business/naics2007/48"
+                },
+                {
+                    "text": "Research",
+                    "value": "/business/naics2007/5417"
+                },
+                {
+                    "text": "Restaurant",
+                    "value": "/business/naics2007/722"
+                }
+            ]
+        },
+        {
+            "type": "Employer",
+            "param": "organization_mid",
+            "options": [
+                {
+                    "text": "All"
+                },
+                {
+                    "text": "Lockheed Martin",
+                    "value": "/m/0hkqn"
+                },
+                {
+                    "text": "ClearanceJobs",
+                    "value": "/m/012mcc9b"
+                },
+                {
+                    "text": "Electronic Arts",
+                    "value": "/m/01n073"
+                },
+                {
+                    "text": "FIS",
+                    "value": "/m/027_qkq"
+                },
+                {
+                    "text": "Jacobs",
+                    "value": "/m/0992r2"
+                },
+                {
+                    "text": "Agoda",
+                    "value": "/g/12nvpqwlt"
+                },
+                {
+                    "text": "Emergent Software",
+                    "value": "/m/09mjr27"
+                },
+                {
+                    "text": "Publix",
+                    "value": "/m/03p3081"
+                },
+                {
+                    "text": "Recruiting from Scratch",
+                    "value": "/g/11vf6tvk_s"
+                },
+                {
+                    "text": "Actalent",
+                    "value": "/g/11rsrhnd_x"
+                },
+                {
+                    "text": "Deloitte",
+                    "value": "/m/02spfd"
+                },
+                {
+                    "text": "Epic",
+                    "value": "/m/0bgrmg"
+                },
+                {
+                    "text": "L3Harris Technologies",
+                    "value": "/g/11fm6fqq8c"
+                },
+                {
+                    "text": "SiriusXM",
+                    "value": "/m/02pljbm"
+                },
+                {
+                    "text": "Abbott",
+                    "value": "/m/02gkg4"
+                },
+                {
+                    "text": "RTX",
+                    "value": "/g/11c6qvm0kj"
+                },
+                {
+                    "text": "Canonical - Jobs",
+                    "value": "/m/045s92"
+                },
+                {
+                    "text": "Leidos",
+                    "value": "/m/01h2kg"
+                },
+                {
+                    "text": "NextEra Energy",
+                    "value": "/m/0h1c7zs"
+                },
+                {
+                    "text": "Penske",
+                    "value": "/m/04vsdk"
+                },
+                {
+                    "text": "Qorvo",
+                    "value": "/m/011x4yp3"
+                },
+                {
+                    "text": "Urban Air Adventure Parks",
+                    "value": "/g/11fhqm02b2"
+                },
+                {
+                    "text": "Arthrex",
+                    "value": "/m/05q9ck8"
+                },
+                {
+                    "text": "Boatsetter",
+                    "value": "/g/11g9n7b4c8"
+                },
+                {
+                    "text": "Citi",
+                    "value": "/m/01dfb6"
+                },
+                {
+                    "text": "Crowe",
+                    "value": "/m/04n0vqr"
+                },
+                {
+                    "text": "Disney Parks, Experiences and Products",
+                    "value": "/m/04tkqm"
+                },
+                {
+                    "text": "HireTalent - Diversity Staffing & Recruiting Firm",
+                    "value": "/g/11spp9c__f"
+                },
+                {
+                    "text": "Intel",
+                    "value": "/m/03s7h"
+                },
+                {
+                    "text": "Meta",
+                    "value": "/m/0hmyfsv"
+                },
+                {
+                    "text": "Northrop Grumman",
+                    "value": "/m/01frpd"
+                },
+                {
+                    "text": "Royal Caribbean Cruises Ltd",
+                    "value": "/m/04y5s49"
+                },
+                {
+                    "text": "SpaceX",
+                    "value": "/m/03fkyw"
+                },
+                {
+                    "text": "The Home Depot",
+                    "value": "/m/01zj1t"
+                },
+                {
+                    "text": "The Judge Group",
+                    "value": "/g/11gyvt6d1"
+                },
+                {
+                    "text": "The Walt Disney Company",
+                    "value": "/m/09b3v"
+                },
+                {
+                    "text": "Accenture",
+                    "value": "/m/01rp2c"
+                },
+                {
+                    "text": "Advanced Micro Devices",
+                    "value": "/m/0z64"
+                },
+                {
+                    "text": "Aerojet Rocketdyne",
+                    "value": "/m/0w1c_19"
+                },
+                {
+                    "text": "AgileEngine",
+                    "value": "/g/11fhqknvn7"
+                },
+                {
+                    "text": "Aledade",
+                    "value": "/g/11g9ml8z2x"
+                },
+                {
+                    "text": "Amgen",
+                    "value": "/m/03r820"
+                },
+                {
+                    "text": "Applied Research Associates, Inc",
+                    "value": "/g/11hd5fbpwz"
+                }
+            ]
+        }
+    ]
+}
