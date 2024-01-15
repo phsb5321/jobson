@@ -8,7 +8,7 @@ Este espaço fornece a documentação detalhada para o código Python utilizado 
 
 .Bibliotecas necessárias: json, panda e request. 
 
-.O ccódigo resgata a chave da SERPAPI para conseguir fazer o uso do programa, a URL base para a consulta o diretório onde os dados serão salvos e o caminho para o arquivo CSV.
+.O ccódigo resgata a chave da SERPAPI para conseguir fazer o uso do programa, a URL base para a consulta o diretório onde os dados serão salvos e o caminho para o arquivo CSV, que é uma estrutura que permite salvar dados de forma mais robusta.
 
 .O código manda um reuest para o SERPAPI fazer uma busca de dados de um emprego específico (Ex. "Software Engineer") e com uma localização específica (Ex. "San Francisco, CA")
 
