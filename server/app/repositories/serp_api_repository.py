@@ -5,6 +5,8 @@ from typing import List, Optional
 
 import requests
 
+from app.database.database_manager import MongoDBClient
+
 from ..config import Config
 from ..database.models import Job
 
@@ -12,27 +14,25 @@ from ..database.models import Job
 class SerpApiRepository:
     """A repository for fetching and processing job data from Serp API."""
 
-    def __init__(
-        self,
-        api_key: str,
-        base_url: str = Config.BASE_URL,
-    ):
+    def __init__(self, api_key: str, base_url: str = Config.BASE_URL):
         """
         Initializes the SerpApiRepository with necessary configuration.
         """
         self.api_key = api_key
         self.base_url = base_url
+        self.mongo_client = MongoDBClient()
 
-    def fetch_job_data(self, query: str, location: str) -> Optional[dict]:
-        """Fetches job data from the API for a given query and location."""
+    def fetch_job_data(self, query: str, state: str) -> Optional[dict]:
+        """Fetches job data from the API for a given query and state."""
         params = {
             "engine": "google_jobs",
             "q": query,
-            "location": location,
+            "l": state + ", Brazil",
             "api_key": self.api_key,
         }
         response = requests.get(self.base_url, params=params)
         if response.ok:
+            self.mongo_client.save_raw_response("serp_api_responses", response.json())
             return response.json()
         return None
 
@@ -57,12 +57,11 @@ class SerpApiRepository:
         }
         return Job(**job_info)
 
-    def process_job_data(self, query: str, location: str) -> List[Job]:
+    def process_job_data(self, query: str, state: str) -> List[Job]:
         """Processes job data by fetching and converting to Job model instances."""
-        job_data = self.fetch_job_data(query, location)
+        job_data = self.fetch_job_data(query, state)
         if not job_data or "jobs_results" not in job_data:
             raise ValueError("No data or invalid API key")
 
         job_listings = [self.extract_job_info(job) for job in job_data["jobs_results"]]
-
         return job_listings

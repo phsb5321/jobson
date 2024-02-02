@@ -3,10 +3,11 @@
 
 from contextlib import contextmanager
 
+from pymongo import MongoClient
 from sqlalchemy import create_engine
 from sqlalchemy.orm import declarative_base, sessionmaker
 
-from ..config import Config
+from app.config import Config
 
 engine = create_engine(Config.DATABASE_URI)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
@@ -25,3 +26,13 @@ def session_scope():
         raise e
     finally:
         session.close()
+
+
+class MongoDBClient:
+    def __init__(self):
+        self.client = MongoClient(Config.MONGO_URI)
+        self.db = self.client.jobson  # 'jobson' is the database name
+
+    def save_raw_response(self, collection_name, data):
+        collection = self.db[collection_name]
+        collection.insert_one(data)
