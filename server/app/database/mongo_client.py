@@ -1,5 +1,4 @@
 from pymongo import MongoClient
-
 from ..config import Config
 
 
@@ -8,12 +7,12 @@ class MongoDBClient:
 
     @staticmethod
     def get_instance():
-        if MongoDBClient._instance == None:
+        if MongoDBClient._instance is None:
             MongoDBClient()
         return MongoDBClient._instance
 
     def __init__(self):
-        if MongoDBClient._instance != None:
+        if MongoDBClient._instance is not None:
             raise SingletonException("This class is a singleton!")
         else:
             MongoDBClient._instance = self
