@@ -13,25 +13,6 @@ services:
       - .env
     networks:
       - jobson-network
-    depends_on:
-      - jobson-mongo
-
-  jobson-mongo:
-    image: mongo:latest
-    container_name: jobson_mongo_db
-    restart: unless-stopped
-    environment:
-      MONGO_INITDB_ROOT_USERNAME: ${MONGO_INITDB_ROOT_USERNAME}
-      MONGO_INITDB_ROOT_PASSWORD: ${MONGO_INITDB_ROOT_PASSWORD}
-    ports:
-      - "27017:27017"
-    volumes:
-      - jobson-mongo-data:/data/db
-    networks:
-      - jobson-network
-
-volumes:
-  jobson-mongo-data:
 
 networks:
   jobson-network:
