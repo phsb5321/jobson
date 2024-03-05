@@ -6,8 +6,8 @@ FROM python:3.10-slim AS base
 # - Prevent Python from generating .pyc files
 # - Set Python PATH to find the installed packages
 ENV PYTHONDONTWRITEBYTECODE=1 \
-    PYTHONUNBUFFERED=1 \
-    PYTHONPATH=/usr/src/app
+  PYTHONUNBUFFERED=1 \
+  PYTHONPATH=/usr/src/app
 
 # Set the working directory to /usr/src/app
 WORKDIR /usr/src/app
@@ -16,9 +16,9 @@ WORKDIR /usr/src/app
 # We use `--no-cache-dir` to keep the image small
 # The virtual environment is not needed in the container,
 # so we disable its creation.
-RUN pip install --no-cache-dir --upgrade pip && \
-    pip install --no-cache-dir poetry && \
-    poetry config virtualenvs.create false
+RUN pip install --no-cache-dir --upgrade pip &&
+  pip install --no-cache-dir poetry &&
+  poetry config virtualenvs.create false
 
 # Install netcat-openbsd for network utilities (like checking if the DB is up)
 RUN apt-get update && apt-get install -y netcat-openbsd && rm -rf /var/lib/apt/lists/*
