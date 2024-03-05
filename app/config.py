@@ -14,6 +14,7 @@ class Config:
     API_KEY = os.getenv("API_KEY")
     BASE_URL = "https://serpapi.com/search.json"
     MONGO_URI = os.getenv("MONGO_URI")
+    PORT = os.getenv("PORT")
 
     JOB_QUERIES = [
         "Engenheiro de Software",

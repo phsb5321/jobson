@@ -16,4 +16,4 @@ if __name__ == "__main__":
         Config.API_KEY, Config.JOB_QUERIES, Config.BRAZILIAN_STATES
     )
     job_fetcher.schedule_jobs()
-    app.run(host="0.0.0.0", port=3500)
+    app.run(host="0.0.0.0", port=Config.PORT)
