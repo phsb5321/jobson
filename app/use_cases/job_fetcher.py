@@ -1,65 +1,42 @@
-from pymongo import MongoClient, errors
-from ..config import Config
+import atexit
+from concurrent.futures import Future, ThreadPoolExecutor
+from datetime import datetime
+from typing import Any, List
+from apscheduler.schedulers.background import BackgroundScheduler
+from ..repositories.serp_api_repository import SerpApiRepository
 
 
-class MongoDBClient:
-    _instance = None
+class JobFetcher:
+    def __init__(
+        self, api_key: str, job_queries: List[str], brazilian_states: List[str]
+    ) -> None:
+        self.api_key: str = api_key
+        self.job_queries: List[str] = job_queries
+        self.brazilian_states: List[str] = brazilian_states
+        self.serp_repository: SerpApiRepository = SerpApiRepository(api_key)
 
-    @staticmethod
-    def get_instance():
-        if MongoDBClient._instance is None:
-            MongoDBClient()
-        return MongoDBClient._instance
-
-    def __init__(self):
-        if MongoDBClient._instance is not None:
-            raise SingletonException("This class is a singleton!")
-        else:
-            MongoDBClient._instance = self
-            self.client = MongoClient(Config.MONGO_URI)
-            self.db = self.client["jobson"]  # Connects to the 'jobson' database
-            self._ensure_setup()
-
-    def __enter__(self):
-        return self
-
-    def __exit__(self, exc_type, exc_val, exc_tb):
-        self.client.close()
-
-    def _ensure_setup(self):
-        # This method ensures that all the necessary setup is done, such as creating collections and indexes
-        self._ensure_collection_exists(
-            "jobs", [("job_id", 1)], unique_indexes=["job_id"]
+    def schedule_jobs(self) -> None:
+        """Schedules automatic job data fetch."""
+        scheduler: BackgroundScheduler = BackgroundScheduler()
+        scheduler.add_job(
+            self.fetch_and_store_job_data, "cron", hour=0, minute=0, day="*/2"
         )
-        self._ensure_collection_exists(
-            "job_highlights", [("highlight_id", 1)], unique_indexes=["highlight_id"]
-        )
+        scheduler.start()
+        atexit.register(lambda: scheduler.shutdown())
 
-    def _ensure_collection_exists(
-        self, collection_name, index_list, unique_indexes=None
-    ):
-        # Check if the collection exists
-        if collection_name not in self.db.list_collection_names():
-            # Create the collection since it does not exist
-            self.db.create_collection(collection_name)
-            print(f"Collection '{collection_name}' created.")
+    def fetch_and_store_job_data(self) -> None:
+        """Fetches and stores job data from SerpAPI."""
 
-        collection = self.db[collection_name]
+        with ThreadPoolExecutor() as executor:
+            futures: List[Future[Any]] = []
+            for job_query in self.job_queries:
+                for state in self.brazilian_states:
+                    future: Future[Any] = executor.submit(
+                        self.serp_repository.fetch_job_data, job_query, state
+                    )
+                    futures.append(future)
 
-        # Setup indexes
-        for index in index_list:
-            try:
-                if index[0] in unique_indexes:
-                    collection.create_index([index], unique=True)
-                else:
-                    collection.create_index([index])
-            except errors.OperationFailure as e:
-                print(f"Failed to create index on {index[0]}: {e}")
+        for future in futures:
+            future.result()
 
-
-class SingletonException(Exception):
-    """Exception raised when a second instance of a Singleton class is created."""
-
-    def __init__(self, message):
-        self.message = message
-        super().__init__(self.message)
+        print(f"Job data fetched and stored successfully at {datetime.now()}")

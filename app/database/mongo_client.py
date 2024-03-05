@@ -34,11 +34,6 @@ class MongoDBClient:
         self._ensure_collection_exists(
             "job_highlights", [("highlight_id", 1)], unique_indexes=["highlight_id"]
         )
-        self._ensure_collection_exists(
-            "api_responses",
-            [("query", 1), ("state", 1), ("timestamp", 1)],
-            unique_indexes=["query", "state"],
-        )
 
     def _ensure_collection_exists(
         self, collection_name, index_list, unique_indexes=None
