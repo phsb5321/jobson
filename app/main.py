@@ -9,6 +9,7 @@ api = Api(
 )
 api.add_namespace(ns, path="/jobs")
 
+
 if __name__ == "__main__":
     from app.use_cases.job_fetcher import JobFetcher
 
@@ -16,4 +17,7 @@ if __name__ == "__main__":
         Config.API_KEY, Config.JOB_QUERIES, Config.BRAZILIAN_STATES
     )
     job_fetcher.schedule_jobs()
-    app.run(host="0.0.0.0", port=Config.PORT)
+
+    # Optionally, you can specify a different port via the Config.PORT if it's defined in your .env file or config
+    port = Config.PORT if Config.PORT else 5000
+    app.run(host="0.0.0.0", port=port, debug=True)
