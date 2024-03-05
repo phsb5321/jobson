@@ -2,9 +2,9 @@
 import pytest
 import requests_mock
 
-from app.config import Config
-from app.database.models import Job
-from app.repositories.serp_api_repository import SerpApiRepository
+from config import Config
+from database.models import Job
+from repositories.serp_api_repository import SerpApiRepository
 
 # Test data to mock the API response
 mock_job_listing = {

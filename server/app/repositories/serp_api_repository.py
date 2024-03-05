@@ -1,14 +1,11 @@
-# app/repositories/serp_api_repository.py
-"""Repository module for fetching data from Serp API."""
-
-from typing import List, Optional
+import datetime
+from concurrent.futures import ThreadPoolExecutor
+from typing import Optional
 
 import requests
 
-from app.database.database_manager import MongoDBClient
-
 from ..config import Config
-from ..database.models import Job
+from ..database.mongo_client import MongoDBClient
 
 
 class SerpApiRepository:
@@ -20,7 +17,28 @@ class SerpApiRepository:
         """
         self.api_key = api_key
         self.base_url = base_url
-        self.mongo_client = MongoDBClient()
+        self.mongo_client = MongoDBClient.get_instance()
+
+    from bson.objectid import ObjectId
+
+    def process_and_insert_job_data(
+        self, job, response_data, jobs_collection, highlights_collection
+    ):
+        # Insert job highlights into its own collection
+        highlight_id = highlights_collection.insert_one(
+            job.get("job_highlights", {})
+        ).inserted_id
+
+        # Insert the job into the jobs collection with a reference to the highlight
+        job_data = job.copy()
+        job_data.update(
+            {
+                "search_metadata": response_data["search_metadata"],
+                "search_parameters": response_data["search_parameters"],
+                "job_highlights_id": highlight_id,
+            }
+        )
+        jobs_collection.insert_one(job_data)
 
     def fetch_job_data(self, query: str, state: str) -> Optional[dict]:
         """Fetches job data from the API for a given query and state."""
@@ -31,37 +49,27 @@ class SerpApiRepository:
             "api_key": self.api_key,
         }
         response = requests.get(self.base_url, params=params)
-        if response.ok:
-            self.mongo_client.save_raw_response("serp_api_responses", response.json())
-            return response.json()
-        return None
+        if not response.ok:
+            return None
 
-    @staticmethod
-    def extract_job_info(job: dict) -> Job:
-        """Extracts and returns relevant information from a job posting as a Job model instance."""
-        extensions = job.get("detected_extensions", {})
-        job_info = {
-            "job_title": job.get("title", ""),
-            "company_name": job.get("company_name", ""),
-            "location": job.get("location", "").strip(),
-            "description": job.get("description", ""),
-            "date_posted": extensions.get("posted_at", ""),
-            "job_type": extensions.get("schedule_type", ""),
-            "salary": extensions.get("salary", ""),
-            "benefits": ", ".join(job.get("extensions", [])),
-            "application_link": job.get("apply_link", {}).get("link", ""),
-            "related_links": ", ".join(
-                link.get("link", "") for link in job.get("related_links", [])
-            ),
-            "job_id": job.get("job_id", ""),
-        }
-        return Job(**job_info)
+        response_data = response.json()
+        with MongoDBClient.get_instance() as mongo_client:
+            jobs_collection = mongo_client.db.jobs
+            highlights_collection = mongo_client.db.job_highlights
 
-    def process_job_data(self, query: str, state: str) -> List[Job]:
-        """Processes job data by fetching and converting to Job model instances."""
-        job_data = self.fetch_job_data(query, state)
-        if not job_data or "jobs_results" not in job_data:
-            raise ValueError("No data or invalid API key")
+            for job in response_data["jobs_results"]:
+                self.process_and_insert_job_data(
+                    job, response_data, jobs_collection, highlights_collection
+                )
+            return mongo_client.db.jobs.find()
 
-        job_listings = [self.extract_job_info(job) for job in job_data["jobs_results"]]
-        return job_listings
+    def fetch_and_store_job_data(self):
+        """Fetches and stores job data from SerpAPI."""
+
+        with ThreadPoolExecutor() as executor:
+            for job_query in self.job_queries:
+                for state in self.brazilian_states:
+                    executor.submit(
+                        self.serp_repository.process_job_data, job_query, state
+                    )
+        print(f"Job data fetched and stored successfully at {datetime.now()}")

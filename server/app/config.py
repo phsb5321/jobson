@@ -33,7 +33,7 @@ class Config:
         "Analista de Segurança",
         "Engenheiro de Nuvem",
     ]
-    
+
     BRAZILIAN_STATES = [
         "Acre",
         "Alagoas",

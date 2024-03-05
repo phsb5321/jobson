@@ -36,13 +36,6 @@ RUN poetry install --no-root --no-dev --no-interaction --no-ansi
 # Copy your application code to the /usr/src/app folder in the container
 # Copy your application code and entrypoint script
 COPY . .
-COPY entrypoint.sh .
-
-# Give execution rights on the entrypoint script
-RUN chmod +x /usr/src/app/entrypoint.sh
-
-# Set the entrypoint script to be executed
-ENTRYPOINT ["/usr/src/app/entrypoint.sh"]
 
 # Set the default command to execute the application using the Python module syntax
 CMD ["python", "-m", "app.main"]
