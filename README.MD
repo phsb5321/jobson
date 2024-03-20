@@ -8,6 +8,10 @@ O Jobson é uma plataforma que oferece análises profundas e intuitivas sobre o 
 
 ## Como rodar ▶️
 
+Na pasta do projecto(jobson), você apenas precisa rodar o seguinte comando:
+
+streamlit run public/main.py
+
 ## Deploy 🌐
 
 ## Tecnologias utilizadas 🖱️
