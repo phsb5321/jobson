@@ -1,4 +1,4 @@
-![Alt text](public/ICO.png)
+![Alt text](IMAGES/ICO.png)
 
 # 🚀 JobSon API
 

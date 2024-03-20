@@ -1,5 +1,7 @@
 from pymongo import MongoClient, errors
 from ..config import Config
+from pandas import DataFrame
+import os
 
 
 class MongoDBClient:
@@ -29,15 +31,11 @@ class MongoDBClient:
     def _ensure_collection_exists(
         self, collection_name, index_list, unique_indexes=None
     ):
-        # Check if the collection exists
         if collection_name not in self.db.list_collection_names():
-            # Create the collection since it does not exist
             self.db.create_collection(collection_name)
             print(f"Collection '{collection_name}' created.")
 
         collection = self.db[collection_name]
-
-        # Setup indexes
         for index in index_list:
             try:
                 if unique_indexes and index[0] in unique_indexes:
@@ -46,6 +44,18 @@ class MongoDBClient:
                     collection.create_index([index])
             except errors.OperationFailure as e:
                 print(f"Failed to create index on {index[0]}: {e}")
+
+    def fetch_jobs_data(self) -> DataFrame:
+        jobs_cursor = self.db.jobs.find({})
+        df = DataFrame(list(jobs_cursor))
+        return df
+
+    def save_jobs_data_to_csv(self, df: DataFrame, file_path: str):
+        """Saves the given DataFrame to a CSV file."""
+        # Ensure the directory exists where the file will be saved
+        os.makedirs(os.path.dirname(file_path), exist_ok=True)
+        df.to_csv(file_path, index=False)
+        print(f"Saved job listings data to CSV at {file_path}.")
 
 
 class SingletonException(Exception):
