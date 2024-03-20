@@ -10,11 +10,11 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
 WORKDIR /usr/src/app
 
 # Install system packages, pip, poetry, and supervisor
-RUN apt-get update && apt-get install -y netcat-openbsd supervisor &&
-  rm -rf /var/lib/apt/lists/* &&
-  pip install --no-cache-dir --upgrade pip &&
-  pip install --no-cache-dir poetry &&
-  poetry config virtualenvs.create false
+RUN apt-get update && apt-get install -y netcat-openbsd supervisor && \
+    rm -rf /var/lib/apt/lists/* && \
+    pip install --no-cache-dir --upgrade pip && \
+    pip install --no-cache-dir poetry && \
+    poetry config virtualenvs.create false
 
 # Copy only necessary configuration files first to cache this layer
 COPY pyproject.toml poetry.lock* ./
@@ -27,3 +27,6 @@ COPY . .
 
 # Supervisor configuration file
 COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf
+
+# Set the default command to execute supervisord
+CMD ["/usr/bin/supervisord", "-c", "/etc/supervisor/conf.d/supervisord.conf"]
