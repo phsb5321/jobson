@@ -1,12 +1,16 @@
 # Engenharia de Software (IF977)
 
 <div style="text-align:center;">
-  <img src="./public/assets/images/JobsonReadme.png" alt="Doxa Logo" width="800px">
+  <img src="./public/assets/images/JobsonReadme.png" alt="Jobson Logo" width="600px">
 </div>
 
 O Jobson é uma plataforma que oferece análises profundas e intuitivas sobre o mercado de trabalho atual na área de TI, utilizando capacidades de Análise de Dados. Sua relevância está na geração de insights estratégicos para indivíduos e organizações interessados em entender o panorama do mercado, identificando tendências, demandas de emprego, salários, habilidades e qualificações em alta. Destaca-se por uma Interface de Usuário interativa e acessível, facilitando o acesso a visualizações dinâmicas de dados sobre o mercado de trabalho em TI. Utiliza uma infraestrutura de Back-end sofisticada para coletar dados do Google Jobs de forma automatizada, garantindo análises abrangentes e atualizadas. Em resumo, o Jobson é uma plataforma de dashboard que oferece ao usuário insights valiosos sobre o mercado de trabalho em TI, incluindo tendências e padrões salariais.
 
 ## Como rodar ▶️
+
+Na pasta do projecto(jobson), você apenas precisa rodar o seguinte comando:
+
+streamlit run public/main.py
 
 ## Deploy 🌐
 
