@@ -1,9 +1,9 @@
 import streamlit as st
 import pandas as pd
 import altair as alt
+from app.config import Config
 from modules.formater import Title
 from modules.importer import DataImport
-from app.config import Config
 
 
 def load_view():
