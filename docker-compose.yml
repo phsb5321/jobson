@@ -4,7 +4,7 @@ services:
   jobson-app:
     build:
       context: .
-      dockerfile: Dockerfile.development
+      dockerfile: Docker/Dockerfile.development # Updated path
     container_name: jobson_application
     restart: unless-stopped
     ports:
@@ -15,6 +15,17 @@ services:
       - jobson-network
     volumes:
       - .:/usr/src/app
+
+  streamlit-app:
+    build:
+      context: .
+      dockerfile: Docker/Dockerfile.Streamlit # Updated path
+    container_name: jobson_streamlit_application
+    restart: unless-stopped
+    ports:
+      - "8501:8501"
+    networks:
+      - jobson-network
 
 networks:
   jobson-network:
