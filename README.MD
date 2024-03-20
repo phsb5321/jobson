@@ -1,90 +1,39 @@
-![Alt text](IMAGES/ICO.png)
+# Engenharia de Software (IF977)
 
-# 🚀 JobSon API
+<div style="text-align:center;">
+  <img src="./public/assets/images/JobsonReadme.png" alt="Doxa Logo" width="800px">
+</div>
 
-## 🌟 Project Overview
+O Jobson é uma plataforma que oferece análises profundas e intuitivas sobre o mercado de trabalho atual na área de TI, utilizando capacidades de Análise de Dados. Sua relevância está na geração de insights estratégicos para indivíduos e organizações interessados em entender o panorama do mercado, identificando tendências, demandas de emprego, salários, habilidades e qualificações em alta. Destaca-se por uma Interface de Usuário interativa e acessível, facilitando o acesso a visualizações dinâmicas de dados sobre o mercado de trabalho em TI. Utiliza uma infraestrutura de Back-end sofisticada para coletar dados do Google Jobs de forma automatizada, garantindo análises abrangentes e atualizadas. Em resumo, o Jobson é uma plataforma de dashboard que oferece ao usuário insights valiosos sobre o mercado de trabalho em TI, incluindo tendências e padrões salariais.
 
-The JobSon API is a digital assistant 🤖 designed to automate the aggregation of job listings using SerpApi, offering a sleek RESTful interface to access and manage job data with ease. It stands out for:
+## Como rodar ▶️
 
-- 🔄 Scheduled fetching of job listings.
-- 🌐 RESTful API to access job data.
-- 🔧 Scalable and maintainable architecture perfect for aggregation tasks.
+## Deploy 🌐
 
-## 🛠 How It Works
+## Tecnologias utilizadas 🖱️
 
-Leveraging a stack of powerful tools and frameworks, the JobSon API offers seamless job listings:
+- Python
+- JavaScript
+- MongoDB
+- SerpAPI
+- Streamlit.py
 
-- **Flask**: A nimble web framework for crafting RESTful endpoints.
-- **SQLAlchemy**: A robust SQL toolkit and ORM.
-- **PostgreSQL**: The trusted open-source relational database.
-- **APScheduler**: For timely automated tasks.
-- **SerpApi**: Harnessing the power of search engines for job data.
-- **Docker**: Ensuring consistent deployment environments.
+## Documentos 📂
 
-## 🔧 Installation and Setup
+- Screencast
+- [Slides](./documents/Jobson%20-%20Apresenta%C3%A7%C3%A3o%20Final.pdf)
+- [Ata de reunião - Notion](https://www.notion.so/Ata-de-Reuni-es-700e75ce3b2c4d36ac9c41f08066ff41)
+- [Kanban de atividades](https://www.notion.so/Kanban-de-Atividades-32471482a8cd4ec5901a6908acdfe7d2)
+- [Mockup Lo-fi/Hi-fi](https://www.figma.com/file/HB0jNKlTy2wOI7S3GFn9yn/Untitled?type=design&mode=design&t=qA5D5OFgqY0cPSII-0)
+- [Documentação geral(Arquitetura, pitch, testes BDD, user stories, etc)](https://www.notion.so/Informa-es-Do-Projeto-33cfcd05bbb9438cb7bdaf999bb07874)
 
-Ensure Docker and Docker Compose are on board before diving in:
+## Contribuidores
 
-1. Clone the repository like a boss:
+- Pedro Balbino - phsb@cin.ufpe.br
+- Matheus Dalia - mdaa@cin.ufpe.br
+- Newton Cardoso - ncrn@cin.ufpe.br
+- Alexandre de Souza - asc5@cin.ufpe.br
 
-   ```BASH
-   git clone <repository_url>
-   ```
+## Professor
 
-2. Step into the JobSon's universe:
-
-   ```BASH
-   cd JobSon
-   ```
-
-3. Whisper your secrets into a `.env`:
-
-   ```BASH
-   API_KEY=<your_serpapi_key>
-   DATABASE_URI=postgresql://username:password@jobson-db:5432/jobson
-   ```
-
-4. Let Docker Compose weave its magic:
-
-   ```BASH
-   docker-compose up --build
-   ```
-
-5. The gateway to job wonders now awaits at: `http://localhost:3500`.
-
-## 🎯 Usage Examples
-
-How to wield the power of JobSon API:
-
-### Get a Warm Hello
-
-A simple `GET` to welcome you aboard:
-
-```BASH
-curl <http://localhost:3500>
-```
-
-### Manually Unleash the Job Fetcher
-
-Invoking the data fetch tsunami with a `POST`:
-
-```BASH
-curl -X POST <http://localhost:3500/jobs/trigger-fetch>
-```
-
-### Behold All Job Listings
-
-Imagine a Flask route showering you with jobs:
-
-**Coming soon to a codebase near you!**
-
-## 👨‍💻 Contribution Guidelines
-
-Join the fray and contribute:
-
-1. **Coding Stylishly**: Adhere to the PEP 8 style guide.
-2. **PRs Like a Pro**: `development` is your go-to branch for PRs. 🎁
-3. **Issues and Bugs**: Point them out on GitHub.
-4. **Reach Out**: Major ideas? Collaborations? Hit up the maintainers!
-
-Shine on, you crazy diamond, and may your code contributions be ever fruitful!
+- Vinicius Cardoso Garcia
