@@ -1,29 +1,39 @@
-# importer.py
 import pandas as pd
 import os
+import requests
+from io import StringIO
 
 
 class DataImport:
     """
-    A class for importing and cleaning job listing data from CSV files.
+    A class for importing and cleaning job listing data from CSV files or URLs.
     """
 
     def __init__(self):
         """
-        Initializes DataImport with the path to the directory containing data files.
+        Initializes DataImport with the path to the directory containing data files or a URL.
         """
         self.data_dir = os.path.join(os.path.dirname(__file__), "..", "..", "DATA")
         self.normalized_csv_filename = "FINAL.csv"
+        # Check for an environment variable named CSV_URL; if it exists, use its value as the URL
+        self.url = os.getenv("CSV_URL")
 
     def fetch_and_clean_data(self):
         """
-        Reads data from a CSV file, cleans it, and returns a DataFrame.
+        Reads data from a CSV file or URL, cleans it, and returns a DataFrame.
 
         Returns:
         - A cleaned Pandas DataFrame containing job listings data.
         """
-        data_file_path = os.path.join(self.data_dir, self.normalized_csv_filename)
-        jobs_data = pd.read_csv(data_file_path)
+        if self.url:
+            # Fetch CSV data from URL
+            response = requests.get(self.url)
+            response.raise_for_status()  # Raises an HTTPError if the response status code is 4XX/5XX
+            jobs_data = pd.read_csv(StringIO(response.text))
+        else:
+            # Read data from local CSV file
+            data_file_path = os.path.join(self.data_dir, self.normalized_csv_filename)
+            jobs_data = pd.read_csv(data_file_path)
 
         # Clean data
         jobs_data = jobs_data.dropna().reset_index(drop=True)
