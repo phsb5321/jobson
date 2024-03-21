@@ -29,4 +29,4 @@ RUN poetry install --no-root --no-dev --no-interaction --no-ansi
 COPY . .
 
 # Set the default command to run the Streamlit app on port 3000
-CMD ["streamlit", "run", "public/main.py", "--server.port=3000", "--server.address=0.0.0.0"]
+CMD ["streamlit", "run", "public/main.py", "--server.port=80"]
