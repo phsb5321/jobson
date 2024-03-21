@@ -24,7 +24,7 @@ streamlit run public/main.py
 
 ## Documentos 📂
 
-- Screencast
+- [Screencast](https://youtu.be/0XH34_hMM54)
 - [Slides](./documents/Jobson%20-%20Apresenta%C3%A7%C3%A3o%20Final.pdf)
 - [Streamcast](https://youtu.be/0XH34_hMM54)
 - [Ata de reunião - Notion](https://www.notion.so/Ata-de-Reuni-es-700e75ce3b2c4d36ac9c41f08066ff41)
