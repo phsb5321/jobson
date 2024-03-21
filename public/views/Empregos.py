@@ -1,76 +1,58 @@
-from pandas import DataFrame
+# Empregos.py
+from pandas import Series
 import streamlit as st
 from modules.formater import Title
 from modules.importer import DataImport
 
 
 def load_view():
-    """Load the Streamlit view for displaying job data."""
-    Title.display("💸 Empregos")  # Update this to use the new `display` method
+    Title.display("💸 Empregos")  # Set title for the view
     jobs_data = DataImport().fetch_and_clean_data()
 
-    # Since we now have more straightforward columns, let's create filters based on job modalities and salary range.
-    job_modalities = generate_job_modalities_filter(jobs_data)
+    # Ensure jobs_data isn't empty before proceeds
+    if jobs_data.empty:
+        st.error("No job data available.")
+        return
 
-    # Generate filters for skills and job types using the new structure.
+    # Ensure 'description_tokens' column exists and has data
+    if (
+        "description_tokens" not in jobs_data.columns
+        or jobs_data["description_tokens"].empty
+    ):
+        st.error("Description tokens are missing or empty.")
+        return
+
+    # Safely handle 'description_tokens' column to ensure it is a list of strings
+    jobs_data["description_tokens"] = jobs_data["description_tokens"].apply(
+        lambda x: eval(x) if isinstance(x, str) else x
+    )
+
+    # Compute and display skill filter options
     skills = generate_skill_filter(jobs_data)
-    job_types = generate_job_type_filter(
-        jobs_data
-    )  # Using the new columns for contract types
+    selected_skill = st.selectbox("Select a skill to filter by:", ["All"] + skills)
 
-    st.markdown("## 💸 Empregos por faixa salarial")
-    st.markdown("# 💰 Filters")
-    display_filters(skills, job_modalities, job_types)
-
-
-def configure_page_title(title):
-    """Configure the Streamlit page title."""
-    Title.display(title)
-
-
-def load_and_clean_data():
-    """Load job listings data."""
-    return DataImport().fetch_and_clean_data()
+    display_job_data(jobs_data, selected_skill)
 
 
 def generate_skill_filter(jobs_data):
-    """Generate a list of skills for filtering job listings."""
-    skill_count = (
-        DataFrame(jobs_data.description_tokens.sum())
-        .value_counts()
-        .rename_axis("keywords")
-        .reset_index(name="counts")
+    """Generate unique skills from the job listings for filtering."""
+    # Flatten the list of all skills and convert to Series for unique() operation
+    all_skills = Series(
+        [skill for sublist in jobs_data["description_tokens"] for skill in sublist]
     )
-    skill_count = skill_count[skill_count.keywords != ""]
-    return ["Select All"] + list(skill_count.keywords)
+    unique_skills = all_skills.unique()
+    return list(unique_skills)
 
 
-def generate_job_modalities_filter(jobs_data):
-    """Generate filters for job modalities based on new columns."""
-    modalities = {
-        "Home Office": jobs_data["isHomeOffice"].any(),
-        "Full Time": jobs_data["isFullTime"].any(),
-        "Half Time": jobs_data["isHalfTime"].any(),
-        "Internship": jobs_data["isInternship"].any(),
-        "PJ": jobs_data["isPJ"].any(),
-        "CLT": jobs_data["isCLT"].any(),
-    }
-    return ["Select All"] + [
-        modality for modality, available in modalities.items() if available
-    ]
-
-
-def generate_job_type_filter(jobs_data):
-    """This function can be adjusted or repurposed based on new data. Placeholder for now."""
-    # Placeholder for potential filter based on job types or contract types
-    return ["Select All"]
-
-
-def display_filters(skills, job_modalities, job_types):
-    """Display filters for job listings."""
-    st.selectbox("Data Skill:", skills)
-    st.multiselect("Job Modalities:", job_modalities)
-    st.selectbox("Contract Type:", job_types)  # Example placeholder
+def display_job_data(jobs_data, selected_skill):
+    """Filter and display job listings based on the selected skill."""
+    if selected_skill != "All":
+        filtered_jobs = jobs_data[
+            jobs_data["description_tokens"].apply(lambda x: selected_skill in x)
+        ]
+        st.write(filtered_jobs)
+    else:
+        st.write(jobs_data)
 
 
 if __name__ == "__main__":
