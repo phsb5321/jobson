@@ -26,6 +26,7 @@ streamlit run public/main.py
 
 - Screencast
 - [Slides](./documents/Jobson%20-%20Apresenta%C3%A7%C3%A3o%20Final.pdf)
+- [Streamcast](https://youtu.be/0XH34_hMM54)
 - [Ata de reunião - Notion](https://www.notion.so/Ata-de-Reuni-es-700e75ce3b2c4d36ac9c41f08066ff41)
 - [Kanban de atividades](https://www.notion.so/Kanban-de-Atividades-32471482a8cd4ec5901a6908acdfe7d2)
 - [Mockup Lo-fi/Hi-fi](https://www.figma.com/file/HB0jNKlTy2wOI7S3GFn9yn/Untitled?type=design&mode=design&t=qA5D5OFgqY0cPSII-0)
