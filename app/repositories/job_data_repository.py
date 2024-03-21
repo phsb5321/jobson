@@ -76,6 +76,7 @@ class JobNormalizationRepository:
         salaries = re.findall(
             salary_pattern, description.replace(",", "").replace("$", "")
         )
+
         if not salaries:
             return np.nan, np.nan
         salaries = [float(salary.replace("K", "000")) for salary in salaries]
