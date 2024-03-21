@@ -46,7 +46,7 @@ def load_view():
     # Sort DataFrame by 'salary_yearly' in descending order and select top N job titles
     top_n = 10  # Choose the number of top job titles to display
     top_jobs_yearly = filtered_jobs.sort_values(by='max_salary', ascending=False).drop_duplicates('title').head(top_n)
-    top_jobs_hourly = filtered_jobs.sort_values(by='min_salary', ascending=False).drop_duplicates('title').head(top_n)
+    top_jobs_hourly = filtered_jobs.sort_values(by='max_salary', ascending=False).drop_duplicates('title').head(top_n)
     
     # Function to generate a random color
     def generate_random_color():
