@@ -1,81 +1,102 @@
-from pandas import DataFrame
+# Empregos.py
 import streamlit as st
+import pandas as pd
+import numpy as np
+import altair as alt
+import datetime
 from modules.formater import Title
 from modules.importer import DataImport
-
-
-@st.cache_data(ttl=60 * 60)  # Cache the function output for one hour
-def get_jobs_data():
-    return DataImport().fetch_and_clean_data()
-
+import utils as utl
+import matplotlib.pyplot as plt
+import random
 
 def load_view():
-    """Load the Streamlit view for displaying job data."""
-    configure_page_title("💸 Empregos")
-    jobs_data = get_jobs_data()  # Use the cached data loading function
+    jobs_data = DataImport().fetch_and_clean_data()
 
-    # Since we now have more straightforward columns, let's create filters based on job modalities and salary range.
-    job_modalities = generate_job_modalities_filter(jobs_data)
+    # Ensure jobs_data isn't empty before proceeds
+    if jobs_data.empty:
+        st.error("No job data available.")
+        return
 
-    # Generate filters for skills and job types using the new structure.
-    skills = generate_skill_filter(jobs_data)
-    job_types = generate_job_type_filter(
-        jobs_data
-    )  # Using the new columns for contract types
+    # Skill sort, count, and filter list data
+    select_all = "Select All"
+    
+    # Filter job types
+    job_type = ["Select All", "Full-time", "Contractor", "Part Time", "Internship"]
 
+
+    # Top page build
     st.markdown("## 💸 Empregos por faixa salarial")
-    st.markdown("# 💰 Filters")
-    display_filters(skills, job_modalities, job_types)
+    job_type_choice = st.radio("Job Type:", job_type, index=0, format_func=lambda x: 'Select All' if x == job_type[0] else x, horizontal=True)
+    
+    money_time_list = ["Anual", "Por hora"] 
+    money_time_choice = st.radio('Escala temporal:', money_time_list, horizontal = True)
+    
+    # Filter jobs based on selected job type
+    if job_type_choice == "Select All":
+        filtered_jobs = jobs_data
+    else:
+        # Handle NaN values in 'schedule_type' column
+        filtered_jobs['schedule_type'] = filtered_jobs['schedule_type'].fillna('Unknown')
+        filtered_jobs = filtered_jobs[filtered_jobs['schedule_type'].str.contains(job_type_choice)]
+    
+    
 
+    # Sort DataFrame by 'salary_yearly' in descending order and select top N job titles
+    top_n = 10  # Choose the number of top job titles to display
+    top_jobs_yearly = filtered_jobs.sort_values(by='max_salary', ascending=False).drop_duplicates('title').head(top_n)
+    top_jobs_hourly = filtered_jobs.sort_values(by='max_salary', ascending=False).drop_duplicates('title').head(top_n)
+    
+    # Function to generate a random color
+    def generate_random_color():
+        r = random.randint(0, 255)
+        g = random.randint(0, 255)
+        b = random.randint(0, 255)
+        return f'rgb({r},{g},{b})'
 
-def configure_page_title(title):
-    """Configure the Streamlit page title."""
-    Title().page_config(title)
-
-
-def load_and_clean_data():
-    """Load job listings data."""
-    return DataImport().fetch_and_clean_data()
-
-
-def generate_skill_filter(jobs_data):
-    """Generate a list of skills for filtering job listings."""
-    skill_count = (
-        DataFrame(jobs_data.description_tokens.sum())
-        .value_counts()
-        .rename_axis("keywords")
-        .reset_index(name="counts")
+    # Generate random colors for each data point
+    top_jobs_yearly['color'] = top_jobs_yearly.apply(lambda row: generate_random_color(), axis=1)
+    top_jobs_hourly['color'] = top_jobs_hourly.apply(lambda row: generate_random_color(), axis=1)
+        
+    
+    # yearly chart
+    selector = alt.selection_single(encodings=['x', 'y'])
+    yearly_chart = alt.Chart(top_jobs_yearly).mark_bar(cornerRadiusTopLeft=10,
+            cornerRadiusTopRight=10 ).encode(
+        x=alt.X('max_salary:Q', sort=None, title="", axis=alt.Axis(labelFontSize=20) ),      
+        y=alt.Y('title:N',title="Emprego", sort='x'),
+         color=alt.Color('color:N', legend=None)  # Use the generated random colors
+    ).properties(
+        width=800,
+        height=300
+    ).add_selection(
+            selector
+    ).configure_view(
+            strokeWidth=0
     )
-    skill_count = skill_count[skill_count.keywords != ""]
-    return ["Select All"] + list(skill_count.keywords)
+    
+    # hourly chart
+    hourly_chart = alt.Chart(top_jobs_hourly).mark_bar(cornerRadiusTopLeft=10,
+            cornerRadiusTopRight=10 ).encode(
+        x=alt.X('min_salary:Q', sort=None, title="", axis=alt.Axis(labelFontSize=20) ),      
+        y=alt.Y('title:N',title="Emprego", sort='x'),
+        color=alt.Color('color:N', legend=None)  # Use the generated random colors
+    ).properties(
+        width=800,
+        height=300
+    ).add_selection(
+            selector
+    ).configure_view(
+            strokeWidth=0
+    )
+    
 
 
-def generate_job_modalities_filter(jobs_data):
-    """Generate filters for job modalities based on new columns."""
-    modalities = {
-        "Home Office": jobs_data["isHomeOffice"].any(),
-        "Full Time": jobs_data["isFullTime"].any(),
-        "Half Time": jobs_data["isHalfTime"].any(),
-        "Internship": jobs_data["isInternship"].any(),
-        "PJ": jobs_data["isPJ"].any(),
-        "CLT": jobs_data["isCLT"].any(),
-    }
-    return ["Select All"] + [
-        modality for modality, available in modalities.items() if available
-    ]
-
-
-def generate_job_type_filter(jobs_data):
-    """This function can be adjusted or repurposed based on new data. Placeholder for now."""
-    # Placeholder for potential filter based on job types or contract types
-    return ["Select All"]
-
-
-def display_filters(skills, job_modalities, job_types):
-    """Display filters for job listings."""
-    st.selectbox("Data Skill:", skills)
-    st.multiselect("Job Modalities:", job_modalities)
-    st.selectbox("Contract Type:", job_types)  # Example placeholder
+    
+    if money_time_choice == money_time_list[0]:
+        st.altair_chart(yearly_chart, use_container_width=True)
+    else:
+        st.altair_chart(hourly_chart, use_container_width=True)
 
 
 if __name__ == "__main__":

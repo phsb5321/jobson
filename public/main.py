@@ -3,9 +3,8 @@ import streamlit as st
 from views import Empregos, Habilidades, Sobre, Time
 import utils as utl
 
-# Set general page configurations
-st.set_page_config(layout="wide", page_title="Jobson Dashboard")
-st.set_option("deprecation.showPyplotGlobalUse", False)
+# Centralize the page configuration here.
+st.set_page_config(layout="wide", page_title="Jobson Dashboard", page_icon="🚀")
 
 # Apply custom CSS styles
 utl.inject_custom_css()

@@ -76,10 +76,12 @@ class JobNormalizationRepository:
         salaries = re.findall(
             salary_pattern, description.replace(",", "").replace("$", "")
         )
+
         if not salaries:
             return np.nan, np.nan
         salaries = [float(salary.replace("K", "000")) for salary in salaries]
-        return min(salaries), max(salaries)
+        # Return the minimum and maximum salaries or 0 if only one salary is found
+        return tuple(salaries) if len(salaries) == 2 else (salaries[0], 0)
 
     def extract_skills(self, description: str) -> list:
         """Extracts skills based on Config.SKILL_LIST from the job description."""
@@ -106,5 +108,7 @@ class JobNormalizationRepository:
 
     def save_data_to_csv(self, df: pd.DataFrame, file_path: str):
         """Saves the DataFrame to the specified CSV file path."""
+        # Delete the description column
+        df = df.drop(columns=["description"])
         print(f"Saving normalized job data to {file_path}.")
         df.to_csv(file_path, index=False)

@@ -3,6 +3,7 @@ from flask_restx import Namespace, Resource, fields
 from app.repositories.job_data_repository import JobNormalizationRepository
 from app.use_cases.job_fetcher import JobFetcher
 from app.config import Config
+from flask import send_from_directory
 
 # Define a namespace for job-related operations with a descriptive overview
 ns = Namespace(
@@ -71,3 +72,27 @@ class NormalizeCSV(Resource):
         except Exception as e:
             ns.logger.error(f"Failed to initiate normalization and CSV saving: {e}")
             return {"error": str(e)}, 500
+
+
+@ns.route("/download-csv")
+class DownloadCSV(Resource):
+    @ns.doc("download_normalized_csv")
+    @ns.response(200, "CSV file successfully returned.")
+    @ns.response(500, "Internal Server Error", error_model)
+    def get(self):
+        """
+        Allows downloading the normalized job data as a CSV file.
+
+        Returns the 'FINAL.csv' file containing normalized job data for download. Ensure the 'FINAL.csv' file is present in the 'DATA' directory.
+        """
+        try:
+            # Path where the FINAL.csv file is stored
+            file_directory = JobNormalizationRepository().data_dir
+            file_name = JobNormalizationRepository().normalized_csv_filename
+            # Flask's send_from_directory method will automatically handle sending the file
+            return send_from_directory(
+                directory=file_directory, path=file_name, as_attachment=True
+            )
+        except Exception as e:
+            ns.logger.error(f"Failed to download CSV file: {e}")
+            return {"error": f"Failed to download CSV file: {str(e)}"}, 500
