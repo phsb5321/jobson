@@ -14,6 +14,9 @@ streamlit run public/main.py
 
 ## Deploy 🌐
 
+[Servidor](https://server-production-4c2b.up.railway.app/docs)
+[Front](https://streamlit-production-f318.up.railway.app/)
+
 ## Tecnologias utilizadas 🖱️
 
 - Python
