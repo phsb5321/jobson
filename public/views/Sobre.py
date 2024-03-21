@@ -4,8 +4,6 @@ import base64
 
 
 def load_view():
-    title = "📊 Sobre"
-    Title.display(title)
 
     with open("public/assets/images/JobsonLogoStandard.png", "rb") as logo_file:
         logo_as_base64 = base64.b64encode(logo_file.read()).decode("utf-8")
