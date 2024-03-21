@@ -9,9 +9,6 @@ def load_view():
     Title.display("💸 Empregos")  # Set title for the view
     jobs_data = DataImport().fetch_and_clean_data()
 
-    # Print the jobs_data shape
-    print(jobs_data.shape)
-
     # Ensure jobs_data isn't empty before proceeds
     if jobs_data.empty:
         st.error("No job data available.")
