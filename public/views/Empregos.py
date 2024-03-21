@@ -1,9 +1,14 @@
 # Empregos.py
-from pandas import Series
 import streamlit as st
+import pandas as pd
+import numpy as np
+import altair as alt
+import datetime
 from modules.formater import Title
 from modules.importer import DataImport
-import pandas as pd
+import utils as utl
+import matplotlib.pyplot as plt
+import random
 
 def load_view():
     jobs_data = DataImport().fetch_and_clean_data()
@@ -11,55 +16,88 @@ def load_view():
     # Print the jobs_data shape
     print(jobs_data.shape)
 
-    # Ensure jobs_data isn't empty before proceeds
-    if jobs_data.empty:
-        st.error("No job data available.")
-        return
+   
+    
 
-    # Ensure 'description_tokens' column exists and has data
-    if (
-        "description_tokens" not in jobs_data.columns
-        or jobs_data["description_tokens"].empty
-    ):
-        st.error("Description tokens are missing or empty.")
-        return
-
-    # Safely handle 'description_tokens' column to ensure it is a list of strings
-    jobs_data["description_tokens"] = jobs_data["description_tokens"].apply(
-        lambda x: eval(x) if isinstance(x, str) else x
-    )
-
-    # Compute and display skill filter options
-    skills = generate_skill_filter(jobs_data)
-    selected_skill = st.selectbox("Select a skill to filter by:", ["All"] + skills)
-
-    display_job_data(jobs_data, selected_skill)
+    # Skill sort, count, and filter list data
+    select_all = "Select All"
+    
+    # Filter job types
+    job_type = ["Select All", "Full-time", "Contractor", "Part Time", "Internship"]
 
 
-
-def generate_skill_filter(jobs_data):
-    """Generate a list of skills for filtering job listings."""
-    skill_count = (
-        pd.Series(jobs_data["description_tokens"].sum())
-        .value_counts()
-        .reset_index(name="counts")
-        .rename(columns={"index": "keywords"})
-    )
-    skill_count = skill_count[skill_count["keywords"] != ""]
-    return ["Select All"] + list(skill_count["keywords"])
-
-
-
-
-def display_job_data(jobs_data, selected_skill):
-    """Filter and display job listings based on the selected skill."""
-    if selected_skill != "All":
-        filtered_jobs = jobs_data[
-            jobs_data["description_tokens"].apply(lambda x: selected_skill in x)
-        ]
-        st.write(filtered_jobs)
+    # Top page build
+    st.markdown("## 💸 Empregos por faixa salarial")
+    job_type_choice = st.radio("Job Type:", job_type, index=0, format_func=lambda x: 'Select All' if x == job_type[0] else x, horizontal=True)
+    
+    money_time_list = ["Anual", "Por hora"] 
+    money_time_choice = st.radio('Escala temporal:', money_time_list, horizontal = True)
+    
+    # Filter jobs based on selected job type
+    if job_type_choice == "Select All":
+        filtered_jobs = jobs_data
     else:
-        st.write(jobs_data)
+        # Handle NaN values in 'schedule_type' column
+        filtered_jobs['schedule_type'] = filtered_jobs['schedule_type'].fillna('Unknown')
+        filtered_jobs = filtered_jobs[filtered_jobs['schedule_type'].str.contains(job_type_choice)]
+    
+    
+
+    # Sort DataFrame by 'salary_yearly' in descending order and select top N job titles
+    top_n = 10  # Choose the number of top job titles to display
+    top_jobs_yearly = filtered_jobs.sort_values(by='max_salary', ascending=False).drop_duplicates('title').head(top_n)
+    top_jobs_hourly = filtered_jobs.sort_values(by='min_salary', ascending=False).drop_duplicates('title').head(top_n)
+    
+    # Function to generate a random color
+    def generate_random_color():
+        r = random.randint(0, 255)
+        g = random.randint(0, 255)
+        b = random.randint(0, 255)
+        return f'rgb({r},{g},{b})'
+
+    # Generate random colors for each data point
+    top_jobs_yearly['color'] = top_jobs_yearly.apply(lambda row: generate_random_color(), axis=1)
+    top_jobs_hourly['color'] = top_jobs_hourly.apply(lambda row: generate_random_color(), axis=1)
+        
+    
+    # yearly chart
+    selector = alt.selection_single(encodings=['x', 'y'])
+    yearly_chart = alt.Chart(top_jobs_yearly).mark_bar(cornerRadiusTopLeft=10,
+            cornerRadiusTopRight=10 ).encode(
+        x=alt.X('max_salary:Q', sort=None, title="", axis=alt.Axis(labelFontSize=20) ),      
+        y=alt.Y('title:N',title="Emprego", sort='x'),
+         color=alt.Color('color:N', legend=None)  # Use the generated random colors
+    ).properties(
+        width=800,
+        height=300
+    ).add_selection(
+            selector
+    ).configure_view(
+            strokeWidth=0
+    )
+    
+    # hourly chart
+    hourly_chart = alt.Chart(top_jobs_hourly).mark_bar(cornerRadiusTopLeft=10,
+            cornerRadiusTopRight=10 ).encode(
+        x=alt.X('min_salary:Q', sort=None, title="", axis=alt.Axis(labelFontSize=20) ),      
+        y=alt.Y('title:N',title="Emprego", sort='x'),
+        color=alt.Color('color:N', legend=None)  # Use the generated random colors
+    ).properties(
+        width=800,
+        height=300
+    ).add_selection(
+            selector
+    ).configure_view(
+            strokeWidth=0
+    )
+    
+
+
+    
+    if money_time_choice == money_time_list[0]:
+        st.altair_chart(yearly_chart, use_container_width=True)
+    else:
+        st.altair_chart(hourly_chart, use_container_width=True)
 
 
 if __name__ == "__main__":
