@@ -36,7 +36,8 @@ class DataImport:
             jobs_data = pd.read_csv(data_file_path)
 
         # Clean data
-        jobs_data = jobs_data.dropna().reset_index(drop=True)
+        # Print the shape of the DataFrame
+        print(jobs_data.head())
         jobs_data = self._clean_description_tokens(jobs_data)
 
         return jobs_data

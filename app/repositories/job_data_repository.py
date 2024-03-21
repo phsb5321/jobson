@@ -106,5 +106,7 @@ class JobNormalizationRepository:
 
     def save_data_to_csv(self, df: pd.DataFrame, file_path: str):
         """Saves the DataFrame to the specified CSV file path."""
+        # Delete the description column
+        df = df.drop(columns=["description"])
         print(f"Saving normalized job data to {file_path}.")
         df.to_csv(file_path, index=False)
