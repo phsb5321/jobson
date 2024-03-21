@@ -28,7 +28,7 @@ RUN poetry install --no-root --no-dev --no-interaction --no-ansi
 # Copy the current directory contents into the container at /usr/src/app
 COPY . .
 
-EXPOSE 3000
+EXPOSE 3500
 
-# Set the default command to run the Streamlit app on port 3000
-CMD ["streamlit", "run", "public/main.py", "--server.port", "3000"]
+# Set the default command to run the Streamlit app on port 3500
+CMD ["streamlit", "run", "public/main.py", "--server.port", "3500"]
