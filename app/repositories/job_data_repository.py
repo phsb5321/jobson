@@ -79,7 +79,8 @@ class JobNormalizationRepository:
         if not salaries:
             return np.nan, np.nan
         salaries = [float(salary.replace("K", "000")) for salary in salaries]
-        return min(salaries), max(salaries)
+        # Return the minimum and maximum salaries or 0 if only one salary is found
+        return tuple(salaries) if len(salaries) == 2 else (salaries[0], 0)
 
     def extract_skills(self, description: str) -> list:
         """Extracts skills based on Config.SKILL_LIST from the job description."""
