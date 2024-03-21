@@ -2,11 +2,10 @@ from pandas import DataFrame
 import streamlit as st
 from modules.formater import Title
 from modules.importer import DataImport
-
+import pandas as pd
 
 def load_view():
     """Load the Streamlit view for displaying job data."""
-    Title.display("💸 Empregos")  # Update this to use the new `display` method
     jobs_data = DataImport().fetch_and_clean_data()
 
     # Since we now have more straightforward columns, let's create filters based on job modalities and salary range.
@@ -33,16 +32,19 @@ def load_and_clean_data():
     return DataImport().fetch_and_clean_data()
 
 
+
 def generate_skill_filter(jobs_data):
     """Generate a list of skills for filtering job listings."""
     skill_count = (
-        DataFrame(jobs_data.description_tokens.sum())
+        pd.Series(jobs_data["description_tokens"].sum())
         .value_counts()
-        .rename_axis("keywords")
         .reset_index(name="counts")
+        .rename(columns={"index": "keywords"})
     )
-    skill_count = skill_count[skill_count.keywords != ""]
-    return ["Select All"] + list(skill_count.keywords)
+    skill_count = skill_count[skill_count["keywords"] != ""]
+    return ["Select All"] + list(skill_count["keywords"])
+
+
 
 
 def generate_job_modalities_filter(jobs_data):
