@@ -6,7 +6,7 @@ import base64
 def load_view():
     # Title page
     title = "🚀 Time"
-    Title().page_config(title)
+    Title.display(title)
 
     # Function to display image in circular shape
     def circular_image(image_path, size=200):
@@ -15,7 +15,7 @@ def load_view():
     # Path to your image file
     image_path = "static/MatheusDalia.jpeg"
 
-    with open("assets/images/MatheusDalia.jpeg", "rb") as logo_file:
+    with open("public/assets/images/MatheusDalia.jpeg", "rb") as logo_file:
         matheus_as_base64 = base64.b64encode(logo_file.read()).decode("utf-8")
     component = rf"""   
                     <div class="member-line" style="display: flex; justify-content: center;">

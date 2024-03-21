@@ -1,15 +1,15 @@
 import streamlit as st
 import pandas as pd
 import altair as alt
-from app.config import Config
 from modules.formater import Title
 from modules.importer import DataImport
+from config import Config
 
 
 def load_view():
     # Page Title
     title = "🛠️ Habilidades"
-    Title().page_config(title)
+    Title.display(title)
 
     # Import and clean data
     jobs_df = DataImport().fetch_and_clean_data()

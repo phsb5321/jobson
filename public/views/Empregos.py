@@ -4,15 +4,10 @@ from modules.formater import Title
 from modules.importer import DataImport
 
 
-@st.cache_data(ttl=60 * 60)  # Cache the function output for one hour
-def get_jobs_data():
-    return DataImport().fetch_and_clean_data()
-
-
 def load_view():
     """Load the Streamlit view for displaying job data."""
-    configure_page_title("💸 Empregos")
-    jobs_data = get_jobs_data()  # Use the cached data loading function
+    Title.display("💸 Empregos")  # Update this to use the new `display` method
+    jobs_data = DataImport().fetch_and_clean_data()
 
     # Since we now have more straightforward columns, let's create filters based on job modalities and salary range.
     job_modalities = generate_job_modalities_filter(jobs_data)
@@ -30,7 +25,7 @@ def load_view():
 
 def configure_page_title(title):
     """Configure the Streamlit page title."""
-    Title().page_config(title)
+    Title.display(title)
 
 
 def load_and_clean_data():

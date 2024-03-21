@@ -6,7 +6,7 @@ from PATHS import NAVBAR_PATHS
 
 
 def inject_custom_css():
-    with open("assets/styles.css") as f:
+    with open("public/assets/styles.css") as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 
@@ -21,7 +21,7 @@ def get_current_route():
 
 
 def navbar_component():
-    with open("assets/images/JobsonLogoNavbar.png", "rb") as logo_file:
+    with open("public/assets/images/JobsonLogoNavbar.png", "rb") as logo_file:
         logo_as_base64 = base64.b64encode(logo_file.read()).decode("utf-8")
 
     navbar_items = ""
