@@ -10,13 +10,13 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
 WORKDIR /usr/src/app
 
 # Install system dependencies
-RUN apt-get update &&
-    apt-get install --no-install-recommends -y netcat-openbsd &&
+RUN apt-get update && \
+    apt-get install --no-install-recommends -y netcat-openbsd && \
     rm -rf /var/lib/apt/lists/*
 
 # Install Poetry
-RUN pip install --no-cache-dir --upgrade pip &&
-    pip install --no-cache-dir poetry &&
+RUN pip install --no-cache-dir --upgrade pip && \
+    pip install --no-cache-dir poetry && \
     poetry config virtualenvs.create false
 
 # Copy the pyproject.toml and optionally poetry.lock files
@@ -28,7 +28,7 @@ RUN poetry install --no-root --no-dev --no-interaction --no-ansi
 # Copy the current directory contents into the container at /usr/src/app
 COPY . .
 
-EXPOSE 3000
+EXPOSE 3500
 
-# Set the default command to run the Streamlit app on port 3000
-CMD ["streamlit", "run", "public/main.py", "--server.port", "3000"]
+# Set the default command to run the Streamlit app on port 3500
+CMD ["streamlit", "run", "public/main.py", "--server.port", "3500"]
